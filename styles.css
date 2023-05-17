@@ -19,45 +19,48 @@
   @font-face {
     font-family: FontHeadingH1;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 48px;
+    size-adjust: 140%;
   }
   @font-face {
     font-family: FontHeadingH2;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 36px;
+    size-adjust: 105%;
   }
   @font-face {
     font-family: FontHeadingH3;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 28px;
+    size-adjust: 110%;
   }
   @font-face {
     font-family: FontHeadingH4;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 24px;
+    size-adjust: 95%;
   }
   @font-face {
     font-family: FontHeadingH5;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 20px;
+    size-adjust: 80%;
   }
   @font-face {
     font-family: FontHeadingH6;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    font-size: 16px;
+    size-adjust: 65%;
   }
   @font-face {
     font-family: FontBody01;
-    src: url(./assets/fonts/Sen-Bold.ttf);
+    src: url(./assets/fonts/Sen-Regular.ttf);
     size-adjust: 100%;
+    
   }
   @font-face {
     font-family: FontBody02;
-    src: url(./assets/fonts/Sen-Bold.ttf);
+    src: url(./assets/fonts/Sen-Regular.ttf);
     size-adjust: 87.5%;
+    
   }
   @font-face {
     font-family: FontLabel;
-    src: url(./assets/fonts/Sen-Bold.ttf);
+    src: url(./assets/fonts/Sen-Regular.ttf);
     size-adjust: 87.5%;
+    
   }
