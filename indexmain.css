@@ -121,6 +121,8 @@ main{
     height: 280px;
     background-image: url("./assets/photos/home/Featured.post-image.jpg");
     margin-bottom: 16px;
+    background-size: cover;
+
 }
 .featured-item1{
     margin-bottom: 16px;
@@ -315,7 +317,7 @@ main{
     left: 500px;
     background-color: aliceblue;
     width: 595px;
-    height: 434px;
+    height: 435px;
 }
 .started-absolute h4{
     margin-top: 50px;
@@ -353,7 +355,7 @@ main{
 .list-authors{
     width: 1106px;
     height: 380px;
-    background-color: red;
+    /* background-color: red; */
 }
 .list-authors h2{
     display: flex;
@@ -393,22 +395,199 @@ main{
     align-self: center;
     opacity: 0.6;
 }
+ul{
+    list-style: none;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.aut-icons{
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+}
 
 
 
 /* 7º Bloco Advertise */
 .advertise{
     width: 1106px;
-    height: 150px;
-    background-color: bisque;
+    height: 70px;
+    /* background-color: bisque;  */
+    display: flex;  
+    /* justify-content: center; */
+    
 }
+.list-adv{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+}
+.list-adv-item{
+    width: 160px;
+    height: 58px;
+    margin-left: 10px;
+    margin-right: 56px;
+}
+.list-text h5{
+    opacity: 0.5;
+}
+.list-text h4{
+    opacity: 0.7;
+}
+.adv-logo{
+    font-family: FontHeadingH5;
+    opacity: 0.7;
+}
+.span-logo{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* 8º Bloco testimonials */
 .testimonials{
     width: 1106px;
-    height: 330px;
-    background-color: lightcyan;    
+    height: 430px;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
 }
+.testimo-wrapper{
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBF6EA;
+}
+.testimo-left{
+    width: 400px;
+    height: 280px;
+    border-right: 1px solid black;
+    /* background-color: aquamarine; */
+}
+.testimo-left h4{
+    font-family: FontHeadingH4;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.testimo-left h2{
+    font-family: FontHeadingH1;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.testimo-left p{
+    font-family: FontBody02;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.testimo-right{
+    width: 500px;
+    height: 280px;
+    /* background-color: antiquewhite; */
+    margin-left: 60px;
+}
+.testimo-right p{
+    font-family: FontHeadingH2;
+    margin-top: 10px;
+    width: 280px;
+    margin-bottom: 120px;
+}
+
+.jona-wrapper{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    
+
+}
+.jona-img{
+    width: 55px;
+    /* height: 20px; */
+    border-radius: 80px;
+    margin-right: 15px;
+}
+
+.jona-item2{
+    width: 175px;
+    margin-right: 70px;
+    font-family: FontHeadingH2;
+}
+.jona-item2 span{
+    width: 150px;
+    font-family: FontHeadingH4;
+    opacity: 0.6;
+}
+.jona-item3{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    text-align: center;   
+    font-weight: 700;
+    border-radius: 70px;
+    color: black;
+    /* background-color: black; */
+    font-family: FontArrow;
+   
+}
+.jona-item4{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    text-align: center;   
+    font-weight: 700;
+    border-radius: 70px;
+    color: white;
+    background-color: black;
+    font-family: FontArrow;
+   
+}
+
+
+/* 9º Bloco Join */
+
 .join{
     width: 1106px;
-    height: 500px;
-    background-color: lightgray;
+    height: 300px;
+    /* background-color: lightgray; */
+}
+.join-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join-wrapper h2{
+    width: 460px;
+    font-family: FontHeadingH1;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.join-wrapper p{
+    width: 450px;
+    font-family: FontBody01;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.join-now{    
+    font-family: FontHeadingH1;
+    width: 150px;
+    height: 40px;
+    background-color: #FFD050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.join-now:hover{
+    background-color: orange;
 }

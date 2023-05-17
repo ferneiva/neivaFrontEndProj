@@ -16,6 +16,13 @@
     src: url(./assets/fonts/Sen-Bold.ttf);
     size-adjust: 220%;
 }
+@font-face {
+  font-family: FontArrow;
+  src: url(./assets/fonts/Sen-Bold.ttf);
+  size-adjust: 195%;
+}
+
+
   @font-face {
     font-family: FontHeadingH1;
     src: url(./assets/fonts/Sen-Bold.ttf);
