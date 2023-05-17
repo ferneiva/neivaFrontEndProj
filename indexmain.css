@@ -1,14 +1,14 @@
 main{
     margin-top: 60px;
-    /* width:100vw; */    
+    width:1100px;   
     height: auto;
-    /* background-color: antiquewhite; */
+    /* background-color: brown; */
     /* position: relative; */
     font-family: FontSenRegular;
 }
 /* 1º bloco step-by-step-guide */
 .step-step-container{
-    width: 100vw;
+    width: 1100px;
     height: auto;
     /* background-color: aqua; */
     margin-bottom: 50px;
@@ -17,11 +17,11 @@ main{
     height: 400x;
 } */
 .img-step{
-    width: 1110px;
+    width: 1106px;
 }
 .step-photo-text{
     position: absolute;
-    top: 200px;
+    top: 140px;
     left: 30px;
 }
 .step-text{
@@ -32,10 +32,11 @@ main{
     font-weight: 700;
 }
 .item2{
-    width: 470px;
-    font-size: 2rem;
-    font-weight: 700;
+    width: 520px;
+    /* font-size: 2rem;
+    font-weight: 700; */
     margin-bottom: 20px;
+    font-family: FontDisplay;
 }
 .item3{
     font-weight: 200;
@@ -89,7 +90,7 @@ main{
 
 .featured-post{
     margin-top: 20px;
-    width: 100vw;
+    width: 1106px;
     height: 580px;
     /* background-color: lightgreen; */
     display: flex;
@@ -167,6 +168,7 @@ main{
 
 /* 3ª bloco tab */
 .tabs{
+    width: 1106px;
     height: auto;
     background-color: blueviolet;
 }
@@ -190,24 +192,53 @@ main{
     color: #592EA9;
 }
 .tab-content{
-    width: 1110px;
-    height: 300px;
+    width: 1106px;
+    height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     
 }
+.tab-part-wrap{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
 
 .tab-part{
-    width: 580px;
-    height: 200px;
+    width: 430px;
+    height: 160px;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     margin-left: 30px;
     margin-right: 20px;
     padding: 20px;
 }
+.part-title{
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+.part-banner1{
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.part-banner2{
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.part-text{
+    opacity: 0.4;
+    font-weight: 500;
+}
 .more{
-    flex-wrap:wrap;
+    justify-self: start;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    color: #592EA9;
+    cursor: pointer;
 }
 
 .tab1{
@@ -220,29 +251,90 @@ main{
     background-color: #592EA9;
     color: white;
 }
+.tab-hide{
+    display: none;
+}
  
 /* 4º bloco choose category */
+
 .choose-category{
+    width: 1106px;
     height: 300px;
-    background-color: wheat;
+    /* background-color: wheat; */
+   
 }
+.choose-category h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+.choose-cat-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.choose-box{
+    width: 220px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+
+/* 5º Bloco WHY WE STARTED */
 .started{
+    width: 1106px;
     height: 620px;
     background-color: violet;
+    position: relative;
 }
+.img-started{
+    width: 800px;
+}
+.started-absolute{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 160px;
+    left: 500px;
+    background-color: aliceblue;
+    width: 595px;
+    height: 433px;
+}
+.started-absolute h4{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.started-absolute p{
+    
+    margin-left: 20px;
+}
+
+
+
+/* 6º Bloco Authors */
 .list-authors{
+    width: 1106px;
     height: 300px;
     background-color: red;
 }
 .advertise{
+    width: 1106px;
     height: 150px;
     background-color: bisque;
 }
 .testimonials{
+    width: 1106px;
     height: 330px;
     background-color: lightcyan;    
 }
 .join{
+    width: 1106px;
     height: 500px;
     background-color: lightgray;
 }

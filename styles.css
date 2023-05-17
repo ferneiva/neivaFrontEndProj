@@ -3,8 +3,61 @@
     padding: 0;
 } 
 
-
+/* body{
+    width:1110px;
+} */
 @font-face {
     font-family: FontSenRegular;
     src: url(./assets/fonts/Sen-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: FontDisplay;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    size-adjust: 220%;
+}
+  @font-face {
+    font-family: FontHeadingH1;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 48px;
+  }
+  @font-face {
+    font-family: FontHeadingH2;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 36px;
+  }
+  @font-face {
+    font-family: FontHeadingH3;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 28px;
+  }
+  @font-face {
+    font-family: FontHeadingH4;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 24px;
+  }
+  @font-face {
+    font-family: FontHeadingH5;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 20px;
+  }
+  @font-face {
+    font-family: FontHeadingH6;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    font-size: 16px;
+  }
+  @font-face {
+    font-family: FontBody01;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    size-adjust: 100%;
+  }
+  @font-face {
+    font-family: FontBody02;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    size-adjust: 87.5%;
+  }
+  @font-face {
+    font-family: FontLabel;
+    src: url(./assets/fonts/Sen-Bold.ttf);
+    size-adjust: 87.5%;
   }
