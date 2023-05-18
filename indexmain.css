@@ -141,6 +141,8 @@ main{
     background-image: url("./assets/photos/home/Featured.post-image.jpg");
     margin-bottom: 16px;
     background-size: cover;
+    background-position: center;
+    
 
 }
 .featured-item1{
@@ -200,6 +202,7 @@ main{
     width: 1106px;
     height: auto;
     background-color: blueviolet;
+    margin-bottom: 45px;
 }
 .tab-container{
     display: flex;
@@ -225,7 +228,7 @@ main{
 }
 .tab-content{
     width: 1106px;
-    height: 400px;
+    height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -266,6 +269,8 @@ main{
     font-weight: 500;
 }
 .more{
+    margin-top: 45px;
+    width: 100px;
     justify-self: start;
     margin-left: 50px;
     margin-bottom: 80px;
@@ -273,6 +278,12 @@ main{
     cursor: pointer;
 }
 
+.tab3 .more{
+    color:#FFD050;
+}
+.more:hover{
+    background-color: orange;
+}
 .tab1{
     background-color: whitesmoke;
 }
