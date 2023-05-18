@@ -5,8 +5,17 @@ header{
     Position: fixed;
     top: 0;
     z-index: 10;  
-    background-color: aqua;
+    background-color: black;
     font-family: FontSenRegular; 
+    display: flex;
+}
+.bar-item-1{
+    font-size: 2rem;
+    margin-right: 260px; 
+    margin-left: 40px;
+    margin-top: 7px;
+    width: 300px;
+    color: white;
 }
 .bar-items{
     list-style: none;
@@ -18,18 +27,20 @@ header{
     color: white;
     justify-content: space-around;
     align-items: center;    
+    width: 500px;
     
+
 }
-.bar-item-1{
-    font-size: 2rem;
-    margin-right: 380px; 
-    margin-left: 30px;
+.bar-items a{
+    color: white;
+    text-decoration:none;
 }
+
 .bar-item-2{
     margin-right: 8px;
     font-size: 0.8rem;
 }
-.bar-item-3{
+.bar-item-3 a{
     margin-right: 50px;
     background-color: white;
     color: black;
@@ -38,10 +49,19 @@ header{
     display: flex;
     justify-content: center;
     font-weight: 700;
-    
+    cursor: pointer;   
     
 
 }
-.hide-menu{
+.bar-item-4{
+    width: 25px;
+    height: 25px;
+    margin-left: 980px;
+    margin-top: 5px;
+}
+a:hover{
+    background-color: orange;
+}
+.hide-hbg{
     display: none;
 }

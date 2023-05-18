@@ -13,21 +13,26 @@
 </head>
 <body>
     <header>
-            <ul class="bar-items">
-                <li Class="bar-item-1">&#x7B;Finsweet</li>
-                <li>Home</li>
-                <li class="bar-item-2"><a href="blog.html"></a>Blog</li>
-                <li class="bar-item-2"><a href=""></a>About Us</li>
-                <li class="bar-item-2"><a href=""></a>Contact Us</li>
-                <li class="bar-item-3"><a href="contact.html"></a>Subscribe</li>
-                <li class="bar.item-4 hide-menu"><img src="./assets/photos/home/Hamburger-menu.jpg" alt="HM"></li>
+        <div Class="bar-item-1">&#x7B;Finsweet</div>
+        <nav>
+                <ul class="bar-items">
                 
-            </ul>
+                
+                <li class="bar-item-2"><a href="index.html">Home</a></li>
+                <li class="bar-item-2"><a href="blog.html">Blog</a></li>
+                <li class="bar-item-2"><a href="">About Us</a></li>
+                <li class="bar-item-2"><a href="">Contact Us</a></li>
+                <li class="bar-item-3"><a href="contact.html">Subscribe</a></li>                
+                
+            </ul>            
+        </nav>
+        <div type= button class="bar-item-4 hide-hbg"><img src="./assets/photos/home/Hamburger-menu.jpg" alt="HM"></div>
+            
         
     </header>
     <main>
         <section class="step-step-container">
-            <div class="step-photo photo1">
+            <div class="step-photo photo1 item-active">
                 <img class="img-step" src="./assets/photos/home/setp-step-photo1.jpeg" alt="step">
                 
                 <div class="step-photo-text">
@@ -41,7 +46,7 @@
             </div>
             
 
-            <div class="step-photo photo2 hide ">
+            <div class="step-photo photo2 item-hide">
                 <img class="img-step" src="./assets/photos/home/setp-step-photo2.jpeg" alt="step">
                 
                 <div class="step-photo-text">
@@ -54,7 +59,7 @@
                         
             </div>
 
-            <div class="step-photo photo3 hide">
+            <div class="step-photo photo3 item-hide">
                 <img class="img-step" src="./assets/photos/home/step-step-photo3.jpeg" alt="step">
                 
                 <div class="step-photo-text">
@@ -66,15 +71,17 @@
                 </div>
                         
             </div>
+            <input type="button"  class="button-photo left-bt item-hide prevButton" value="&#10633;" >
+            <input type="button" class="button-photo right-bt nextButton" value="&#10634;" >
 
+            <!-- <button class="button-photo left-bt" type= button >&#10633;</button>
+            <button class="button-photo right-bt" type= button >&#10634;</button> -->
 
-            <div class="button-wrapper">
+            <!-- <div class="button-wrapper">
                 <button class="button-photo"type= button > &lt; &nbsp;Prev</button>
-                <button class="button-photo"type= button > Next &nbsp;  &gt;</button>
-                
+                <button class="button-photo"type= button > Next &nbsp;  &gt;</button>                
+            </div> -->
 
-
-            </div>
         </section>
         <section class="featured-post">
             <article class="featured">
@@ -90,7 +97,7 @@
             <article class="posts">
                 <div class="posts-title">
                     <h2>All Posts</h2>
-                    <h3>View All</h3>
+                    <h3><a href="./blog.html">View All</a></h3>
                 </div>
                 <div class="post-item">
                     <h5>By John Doe | May 23,2022</h5>
@@ -320,5 +327,6 @@
     <footer>
         aqui será o footer
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>

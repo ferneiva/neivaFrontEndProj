@@ -22,7 +22,7 @@ main{
 .step-photo-text{
     position: absolute;
     top: 140px;
-    left: 30px;
+    left: 40px;
 }
 .step-text{
     color: white;
@@ -61,27 +61,45 @@ main{
     background-color: orange;
 }
 
-
-.button-wrapper{
+/* botão carrosel em baixo da foto */
+/* .button-wrapper{
     display: flex;
     justify-content: center;
-}
+} */
+/*
 .button-photo{
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     width: 150px;
     height: 32px;
-    /* border-radius: 10px; */
+    background-color: #FFD050;
+    cursor: pointer;
+}
+*/
+.button-photo{
     background-color: #FFD050;
     cursor: pointer;
 }
 .button-photo:hover{
     background-color: orange;
 }
+.left-bt{
+    position: absolute;
+    top: 278px;
+    left: 7px;
+    font-size: 32px;
+    
+}
+.right-bt{
+    position: absolute;
+    top: 278px;
+    left: 1079px;
+    font-size: 38px;
+}
 
 
-.hide{
+.item-hide{
     display: none;
 }
 
@@ -100,6 +118,7 @@ main{
 .featured{
     width: 650px;
     height: 700px;
+    display: flex;
     flex-direction: column;
     /* background-color: green; */
     margin-right: 18px;   
@@ -151,6 +170,10 @@ main{
     flex-direction: row;
     justify-content: space-between;
 }
+.posts-title a{
+    text-decoration:none;
+
+}
 .posts-title h3{
     font-size: 0.8rem;
 }
@@ -159,7 +182,11 @@ main{
     width: 240px;
     font-size: 0.7rem;
     opacity: 0.7;
+    cursor: pointer;
     
+}
+.post-item:hover{
+    background-color: orange;
 }
 .posts p{
     margin-top: 15px;
@@ -182,16 +209,19 @@ main{
     flex-grow: 1;
     background-color: whitesmoke;
     color: whitesmoke;
+    cursor: pointer;
 }
 .tab-grow2{
     flex-grow: 2;
     background-color: #FFD050;
     color: #FFD050;
+    cursor: pointer;
 }
 .tab-grow3{
     flex-grow: 1;
     background-color: #592EA9;
     color: #592EA9;
+    cursor: pointer;
 }
 .tab-content{
     width: 1106px;
@@ -284,6 +314,10 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 14px;
+    cursor: pointer;
+}
+.choose-box:hover{
+    background-color: orange;
 }
 .choose-icon img{
     width: 44px;
@@ -347,7 +381,11 @@ main{
     justify-content: center;
     align-items: center;
     font-family: FontHeadingH4;
+    cursor:pointer;
     
+}
+.started-bt:hover{
+    background-color: orange;
 }
 
 
@@ -556,7 +594,7 @@ ul{
 .join{
     width: 1106px;
     height: 300px;
-    /* background-color: lightgray; */
+    /* git  */
 }
 .join-wrapper{
     display: flex;
