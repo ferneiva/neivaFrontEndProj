@@ -54,3 +54,15 @@ prevButton.addEventListener("click",(eventArgs)=>{
     let buttonNext = document.querySelector(".nextButton");
     buttonNext.classList.remove("item-hide");
 });
+
+//---------.--- section tabs-------------
+let tabs = document.querySelectorAll(".tab");
+tabs.forEach(element => element.addEventListener("click",
+eventArg =>{
+    let contents = document.querySelectorAll(".tab-content");
+    contents.forEach(content => content.classList.add("tab-hide"));
+    let tabClicked = eventArg.target;
+    let tabId = tabClicked.id;
+    let content2Showdocument = document.querySelector("."+tabId);
+    content2Showdocument.classList.remove("tab-hide");
+}));
