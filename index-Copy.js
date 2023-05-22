@@ -1,4 +1,3 @@
-
 // ----------------Carrossel inicial com classes --------------------------
 // ------botão next-----------
 let nextButton = document.querySelector(".next-Button");
@@ -72,6 +71,9 @@ prevButton.addEventListener("click",(eventArgs)=>{
 });
 
 //-----------------fim carosssel inicial---------------
+
+
+
 
 //---------.--- section tabs-------------
 

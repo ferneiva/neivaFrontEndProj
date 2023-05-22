@@ -8,7 +8,7 @@ main{
 }
 /* 1º bloco step-by-step-guide */
 .step-step-container{
-    width: 1100px;
+    width: 1106px;
     height: auto;
     /* background-color: aqua; */
     margin-bottom: 50px;
@@ -84,14 +84,14 @@ main{
 .button-photo:hover{
     background-color: orange;
 }
-.left-bt{
+.prev-Button{
     position: absolute;
     top: 278px;
     left: 7px;
     font-size: 32px;
     
 }
-.right-bt{
+.next-Button{
     position: absolute;
     top: 278px;
     left: 1079px;
