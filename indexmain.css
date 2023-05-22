@@ -298,7 +298,7 @@ main{
     display: none;
 }
  
-/* 4º bloco choose category */
+/* ---------------------4º bloco choose category -------------------*/
 
 .choose-category{
     width: 1106px;
@@ -343,7 +343,7 @@ main{
     font-family: FontBody01;
 }
 
-/* 5º Bloco WHY WE STARTED */
+/* --------- 5º Bloco WHY WE STARTED----------- */
 .started{
     width: 1106px;
     height: 620px;
@@ -400,7 +400,7 @@ main{
 }
 
 
-/* 6º Bloco Authors */
+/* ----------6º Bloco Authors ----------*/
 .list-authors{
     width: 1106px;
     height: 380px;

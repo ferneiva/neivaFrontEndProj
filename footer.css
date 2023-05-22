@@ -2,5 +2,31 @@ footer{
     height: 300px;
     width: 1106px;
     background-color: black;
-    color: white;
+}
+.footer-container{
+    color: white;       
+    width: 990px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.footer-nav{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.footer-items{
+    display: flex;
+    
+}
+.footer-subs{
+    display: flex;
+    background-color: aqua;
+}
+.footer-bottom{
+    display: flex;
+    background-color: blueviolet;
+    justify-content:space-between;
+
 }

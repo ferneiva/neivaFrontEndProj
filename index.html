@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="indexmain.css">    
@@ -16,21 +17,34 @@
 
 
     <header>
+        <nav class="header-nav">
         <div Class="bar-item-1">&#x7B;Finsweet</div>
-        <nav>
-                <ul class="bar-items">
-                
-                
-                <li class="bar-item-2"><a href="index.html">Home</a></li>
-                <li class="bar-item-2"><a href="blog.html">Blog</a></li>
-                <li class="bar-item-2"><a href="">About Us</a></li>
-                <li class="bar-item-2"><a href="">Contact Us</a></li>
-                <li class="bar-item-3"><a href="contact.html">Subscribe</a></li>                
-                
-            </ul>            
-        </nav>
-        <button type=button class="bar-item-4 hide-hbg"></button>
-            
+        
+                    <ul class="bar-items">
+                                <!-- hide-nav-bar -->
+                    
+                    
+                    <li class="bar-item-2"><a href="index.html">Home</a></li>
+                    <li class="bar-item-2"><a href="blog.html">Blog</a></li>
+                    <li class="bar-item-2"><a href="">About Us</a></li>
+                    <li class="bar-item-2"><a href="">Contact Us</a></li>
+                    <li class="bar-item-3"><a href="contact.html">Subscribe</a></li>                
+                    
+                </ul>            
+        </nav>   
+        <button id="show-hbg-tab" type=button class="bar-item-4 hide-hbg-icon"></button> 
+                                                            <!-- hide-hbg-icon -->
+        <div class="hamb-tab hide-hbg-tab">
+                <ul class="hbg-items">
+                    
+                    
+                    <li class="hbg-item-1"><a href="index.html">Home</a></li>
+                    <li class="hbg-item-2"><a href="blog.html">Blog</a></li>
+                    <li class="hbg-item-3"><a href="">About Us</a></li>
+                    <li class="hbg-item-4"><a href="">Contact Us</a></li>
+                    <li class="hbg-item-5"><a href="contact.html">Subscribe</a></li>                
+                    
+        </div>
         
     </header>
     
@@ -338,12 +352,49 @@
 
     </main>
     <footer>
-        aqui será o footer
+        <section class="footer-container">
+            
+            <nav class="footer-nav">
+                <div Class="footer-item-1">&#x7B;Finsweet</div>
+                <ul class="footer-items">                           
+                                
+                    <li class="footer-item-2"><a href="index.html">Home</a></li>
+                    <li class="footer-item-2"><a href="blog.html">Blog</a></li>
+                    <li class="footer-item-2"><a href="">About Us</a></li>
+                    <li class="footer-item-2"><a href="">Contact Us</a></li>
+                    <li class="footer-item-2"><a href="">Private Policy</a></li>                
+                
+                </ul>            
+            </nav>   
+            <div class="footer-Subs">
+                <div>Subscribe to our news letter to get latest updates and news</div>
+                <input type="text" value="Enter Your Email">
+                <div>Subsribe</div>
+
+
+            </div>
+            <div class="footer-bottom">
+                <div class="address">
+                    <h5>Finstreet 118 2561 Fintown</h5>
+                    <h5>Hello@finsweet.com 020 7993 2905</h5>
+                </div>
+                <div class="social">
+                    <ul class="icons">
+                        <li><img class="aut-icons" src="./assets/photos/home/facebook.png" alt="aut-img"></li>
+                        <li><img class="aut-icons" src="./assets/photos/home/twitter.png" alt="aut-img"></li>
+                        <li><img class="aut-icons" src="./assets/photos/home/instagram.png" alt="aut-img"></li>
+                        <li><img class="aut-icons" src="./assets/photos/home/FlaticonIco.png" alt="aut-img"></li>                   
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
     </footer>
 
     
     <script src="./index.js"></script>
-    <script src="./footer.js"></script>
+    <script src="./header.js"></script>
 
 </body>
 </html>
