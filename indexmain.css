@@ -6,7 +6,7 @@ main{
     /* position: relative; */
     font-family: FontSenRegular;
 }
-/* 1º bloco step-by-step-guide */
+/*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
     width: 1106px;
     height: auto;
@@ -104,7 +104,7 @@ main{
 }
 
 
-/* 2ºbloco Featured + All posts*/
+/* ------------- 2ºbloco Featured + All posts-------------------*/
 
 .featured-post{
     margin-top: 20px;
@@ -400,7 +400,7 @@ main{
 }
 
 
-/* ----------6º Bloco Authors ----------*/
+/* ----------6º Bloco Authors ----------font-fam*/
 .list-authors{
     width: 1106px;
     height: 380px;

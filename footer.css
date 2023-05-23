@@ -1,32 +1,108 @@
 footer{
-    height: 300px;
     width: 1106px;
-    background-color: black;
+    /* background-color: lightcoral; */
+    background-color: black;    
 }
 .footer-container{
     color: white;       
-    width: 990px;
+    height: 380px;
     margin-left: 50px;
     margin-right:50px;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
+    margin-bottom: 50px;    
+
+    /* background-color: bisque; */
+} 
 .footer-nav{
     display: flex;
-    margin-top: 50px;
     justify-content: space-between;
 }
+.footer-item-1{
+    margin-top: 50px;
+    font-family:FonttHeadingH1;
+    font-size: 28px;
+
+}
 .footer-items{
+    display: flex;  
+    font-family: FontHeadingH5;
+}
+.footer-item-2{
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+/* #font-footer{
+    font-family:FonttHeadingH3;  
+} */
+
+nav .footer-items{
+    margin-top: 50px;
+}
+.footer-items a{
+    color: white;
+    text-decoration:none;
+}
+.footer-subscription{
     display: flex;
+    height: 120px;
+    width: 1000px;
+    background-color: rgba(30, 30, 30, 1); 
+    /* background-color: antiquewhite; */
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* align-self: center; */
     
 }
-.footer-subs{
-    display: flex;
-    background-color: aqua;
+.subs-item{
+    font-family: FontHeadingH1;
+    width: 390px;
+    margin-right: 90px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+
 }
+.subs-box{
+    width: 230px;
+    height: 42px;
+    border: 1px solid gray;
+    background-color: rgba(30, 30, 30, 1);
+    /* color: rgba(30, 30, 30, 1); */
+    margin-right: 36px;
+    color: rgba(255, 255, 255, 0.3); 
+    text-align: center;    
+    
+}
+
+.subs-box-bt{
+    background-color: #FFD050;
+    color: black;
+    height: 20px;
+    width: 160px;
+    margin-top: -1px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: FontHeadingH4;
+    cursor: pointer;       
+}
+
+.subs-box-bt:hover{
+    background-color: orange;
+}
+
+
 .footer-bottom{
     display: flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     justify-content:space-between;
-
+    align-items: self-start;
+    height: 60px;
+    opacity: 0.5;
+    font-family: FontBody03;
+}
+.social{
+    margin-left: 12px;
 }
