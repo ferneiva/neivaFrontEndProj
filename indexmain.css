@@ -1,6 +1,6 @@
 main{
     margin-top: 60px;
-    width:1100px;   
+    width: 98vw;
     height: auto;
     /* background-color: brown; */
     /* position: relative; */
@@ -8,20 +8,17 @@ main{
 }
 /*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
-    width: 1106px;
+    width: 98.85vw;
     height: auto;
     /* background-color: aqua; */
     margin-bottom: 50px;
 }
-/* .step-photo{    
-    height: 400x;
-} */
 .img-step{
-    width: 1106px;
+    width: 100%;
 }
 .step-photo-text{
     position: absolute;
-    top: 140px;
+    top: 140px; 
     left: 40px;
 }
 .step-text{
@@ -48,8 +45,8 @@ main{
     width: 410px;
 }
 .step-photo-more{
-    width: 150px;
-    height: 40px;
+    width: 11.5vw;
+    height: 7vh;
     background-color: #FFD050;
     display: flex;
     justify-content: center;
@@ -86,15 +83,15 @@ main{
 }
 .prev-Button{
     position: absolute;
-    top: 278px;
-    left: 7px;
-    font-size: 32px;
+    top: 35%;
+    left: 9px;
+    font-size: 38px;
     
 }
 .next-Button{
     position: absolute;
-    top: 278px;
-    left: 1079px;
+    top: 35%;
+    right: 9px;
     font-size: 38px;
 }
 
@@ -107,87 +104,107 @@ main{
 /* ------------- 2ºbloco Featured + All posts-------------------*/
 
 .featured-post{
-    margin-top: 20px;
-    width: 1106px;
-    height: 580px;
+    margin-top: 1.6vw;
+    width: 98.79vw;
+    height: 54vw;
     /* background-color: lightgreen; */
     display: flex;
-    justify-content: center;
+    justify-content:left;
     margin-bottom: 0px;
 }
+
 .featured{
-    width: 650px;
-    height: 700px;
+    width: 50vw;
+    height: 54vw;
     display: flex;
     flex-direction: column;
     /* background-color: green; */
-    margin-right: 18px;   
+    margin-left: 5.5vw;
+    margin-right: 0.1vw;
+    justify-content: flex-start;   
 }
 .featured h2{
-    font-weight: 900;
+    font-family: FontHeadingH1; 
+    
 }
 .featured-border{
     border: 1px groove rgba( 204, 204, 255, 0.6);
-    margin-top: 12px;
+    margin-top: 1.9vw;
     padding:16px;
-    margin-left: 4px;
-    align-self: center;
+    margin-left: 0.25vw;
+    /* text-align: center; */
     
     
 }
 .featured-image{
-    width: 610px;
-    height: 280px;
+    width: 47vw;
+    height: 52vh;
     background-image: url("./assets/photos/home/Featured.post-image.jpg");
-    margin-bottom: 16px;
+    margin-bottom: 3vh;
     background-size: cover;
     background-position: center;
     
 
 }
 .featured-item1{
-    margin-bottom: 16px;
-    font-size: 0.7rem;
+    margin-bottom: 3vh;
+    font-family: FontBody02;
     opacity: 0.7;
+    
 }
 .featured-item2{
-    margin-bottom: 16px;
-    width: 480px;
+    margin-bottom: 3vh;
+    width: 38vw;
 }
 .featured-item3{
-    margin-bottom: 16px;
+    margin-bottom: 3vh;
     font-size: 0.7rem;
     opacity: 0.6;
 }
+
 .posts{
-    width: 400px;
-    height: 700px;
+    width: 37vw; 
+    height: 54vw;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 1vw;
     /* background-color:red; */
+    margin-top: 0.5vh;
 }
 .posts-title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* background-color: aqua;
+     */
 }
-.posts-title a{
-    text-decoration:none;
-
+.posts-title h2{
+    font-family: FontHeadingH1;
 }
 .posts-title h3{
-    font-size: 0.8rem;
+    margin-top: 0.8vw;
+    
+
 }
+.posts-title h3 a{
+    text-decoration:none;
+    color: black;
+    font-family: FontHeadingH5;
+    
+}
+/* .posts-title h3{
+    font-size: 0.8rem;
+} */
 /* ----------------scroll bar */
 .posts-scroll{
-    width: 380px;
-    height: 495px;
+    width: 33vw;
+    height: 90vh;
+    margin-left:2.8vw;
     display: block;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 1.2vw;
 }
  
 ::-webkit-scrollbar-track {
@@ -206,31 +223,45 @@ main{
 
 /* ----------------fim scroll */
 .post-item{
-    margin-top: 34px;
-    width: 240px;
-    font-size: 0.7rem;
+    margin-top: 5.1vh;
+    width: 26vw;
+    height:17vh;
+    padding: 3px;       
+    cursor: pointer;    
+}
+.post-item h5{
+    font-family: FontHeadingH4;
     opacity: 0.7;
-    cursor: pointer;
+    width: 30vw;
+    margin-bottom: 1.2vh;
     
 }
+.post-item p{
+    font-family: FontHeadingH1;
+    margin-bottom: 0.1vh;
+}
+
+
 .post-item:hover{
     background-color: orange;
 }
-.posts p{
-    margin-top: 15px;
-    font-size: 1.1rem;
+/* .posts p{
+    margin-top: 2.7vh
+    font-family: FontHeadingH2;
     font-weight: bolder;
-}
+} */
 
 
 /* ----------3ª bloco tab --------------- */
 .tabs{
-    width: 1106px;
+    width: 98.50vw;
     height: auto;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin-bottom: 45px;
 }
 .tab-container{
+    margin-left: 6.3vw;
+    width: 88vw;
     display: flex;
     justify-content: center;
 }
@@ -253,7 +284,8 @@ main{
     cursor: pointer;
 }
 .tab-content{
-    width: 1106px;
+    margin-left: 6.3vw;
+    width: 88vw;
     height: 370px;
     display: flex;
     flex-direction: column;
@@ -327,68 +359,88 @@ main{
 /* ---------------------4º bloco choose category -------------------*/
 
 .choose-category{
-    width: 1106px;
-    height: 300px;
+    width: 98.85vw;
+    height: 320px;
     /* background-color: wheat; */
+    margin-bottom: 50px;
    
 }
 .choose-category h2{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 38px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin-bottom: 20px;
 }
-.choose-cat-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.category-btn{
+    text-align: center;
+    margin-bottom: 2vw;
 }
 
-.choose-box{
-    width: 220px;
-    height: 180px;
+
+.btn-cat-prev, .btn-cat-next{
+    width: 34px;
+    height: 22px;
+}
+.choose-cat-wrapper{
+    margin-left: 5.2vw;
+    width: 91vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    /* background-color: aqua;   */
+}
+
+.choose-box{    
+    width: 18vw;
+    height: 15vw;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 14px;
     cursor: pointer;
+    /* margin-right: 2vw; */
 }
 .choose-box:hover{
     background-color: orange;
 }
 .choose-icon img{
-    width: 44px;
-    height: 44px;
+    width: 4vw;
+    height: 4vw;
     background-color: rgb(237, 220, 188);
-    border-radius: 10px;  
+    border-radius: 10px;
+    margin-left: 1vw;
 }
 .choose-box h3{
     font-family: FontHeadingH1;
+    margin-left: 1vw;
 }
 .choose-box p{
     font-family: FontBody01;
+    margin-left: 1vw;
 }
 
 /* --------- 5º Bloco WHY WE STARTED----------- */
 .started{
-    width: 1106px;
-    height: 620px;
-    /* background-color: violet; */
+    width: 98.85vw;
+    height: 53vw;
+    background-color: violet;
     position: relative;
     margin-bottom: 30px;
 }
 .img-started{
-    width: 800px;
+    width: 59.5vw;
+    margin-left: 6.4vw;
 }
 .started-absolute{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 160px;
-    left: 500px;
+    top: 7.25vw;
+    left: 36vw;
     background-color: aliceblue;
-    width: 595px;
-    height: 435px;
+    width: 45vw;
+    height:37vw;
 }
 .started-absolute h4{
     margin-top: 50px;
@@ -488,7 +540,7 @@ ul{
 
 /* 7º Bloco Advertise */
 .advertise{
-    width: 1106px;
+    width: 98.85vw;
     height: 70px;
     /* background-color: bisque;  */
     display: flex;  

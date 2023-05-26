@@ -1,5 +1,5 @@
 header{
-    width: 1106px;
+    width: 100vw;
     height: 60px;
     margin:0px;
     Position: fixed;
@@ -10,12 +10,13 @@ header{
     
 }
 .header-nav{
+    width: 100%;
     display: flex;
 }
 .bar-item-1{
     font-size: 2rem;
-    margin-right: 220px; 
-    margin-left: 40px;
+    margin-right: 32vw; /*220px */
+    margin-left: 6vw; /*40px*/
     margin-top: 7px;
     width: 300px;
     color: white;

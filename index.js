@@ -86,3 +86,159 @@ eventArg =>{
     let content2Showdocument = document.querySelector("."+tabId);
     content2Showdocument.classList.remove("tab-hide");
 }));
+
+
+// ---- fim section tabs ----
+
+//---------carossel Categories --------------
+
+const arrayCateg = [
+
+    {
+        id:1,
+        symbol:"./assets/icons/flat-4733-64px.png",
+        category:"Business",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:2,
+        symbol:"./assets/icons/rocket-3432-64px.png",
+        category:"Startup",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:3,
+        symbol:"./assets/icons/coins-787-64px.png",
+        category:"Economy",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:4,
+        symbol:"./assets/icons/artificial-intelligence-14078-64px.png",
+        category:"Technology",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:5,
+        symbol:"./assets/icons/cooperation.png",
+        category:"Business",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:6,
+        symbol:"./assets/icons/start-up.png",
+        category:"Startup",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:7,
+        symbol:"./assets/icons/business.png",
+        category:"Economy",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:8,
+        symbol:"./assets/icons/technology.png",
+        category:"Technology",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id:9,
+        symbol:"./assets/icons/growth.png",
+        category:"Business",
+        text:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    }    
+];
+// teste do array json
+
+// function writeArrayCateg(arrayObj){
+//     for(i=0;  i<arrayObj.length; ++i){
+//         let divArray= document.querySelector ("#teste-array");              
+//         divArray.innerHTML = divArray.innerHTML +
+//          "<p>Symbol:"+ " "+arrayObj[i].symbol + "******"+ " indice do arrayCateg:"+"----"+ i + "</p>"; 
+
+//     }
+// }
+// writeArrayCateg(arrayCateg);
+
+// let n=-1;
+// symbA=undefined; catA=undefined; textA=undefined;
+// symbB=undefined; catB=undefined; textB=undefined;
+// symbC=undefined; catC=undefined; textC=undefined;
+// next button
+
+/*
+let nextBtCateg = document.querySelector(".btn-cat-next");
+nextBtCateg.addEventListener("click", ()=>{
+    
+    arrayCateg.forEach (element => {
+
+        indA=n+1
+        indB=n+2
+        indC=n+3
+
+        symbA=symbol.ArrayCateg[indA];
+        catA=category.ArrayCateg[indA];
+        textA=text.arrayCateg[indA];
+
+        symbB=symbol.ArrayCateg[indB];
+        catB=category.ArrayCateg[indB];
+        textB=text.arrayCateg[indC];
+
+        symbC=symbol.ArrayCateg[indC];
+        catC=category.ArrayCateg[indC];
+        textC=text.arrayCateg[indC];
+
+
+        const arrayDisplay = [
+            {
+                idArrD:1,
+                symbolArrD:(symbA),
+                categoryArrD:(catA),
+                textArrD:(textA),
+        
+            },
+            {
+                idArrD:2,
+                symbolArrD:(symbB),
+                categoryArrD:(catB),
+                textArrD:(textB),
+        
+            },
+            {
+                idArrD:3,
+                symbolArrD:(symbC),
+                categoryArrD:(catC),
+                textArrD:(textC),
+        
+            },
+            ]
+        n= n+1;
+            let writeDiv = document.querySelector(".choose-cat-wrapper");
+            function writeDivDom (){
+                
+                writeDiv.innerHTML =             
+                `<div class="choose-box"></br>
+                <div class="choose-icon"><img src=$(symbolArrD.arrayDisplay[])</div><br>
+                <h3 class="cat-title">$(categoryArrD.arrayDisplay[])</h3><br>
+                <p class="cat-page">$(textArrD.arrayDisplay[])</p><br>
+                </div>`;
+                
+            }
+            
+
+        arraydisplay.map(writeDivDom);
+
+    })
+    
+});
+*/

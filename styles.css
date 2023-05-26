@@ -1,11 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-} 
+}
 
-/* body{
-    width:1110px;
-} */
+/* ---largura 1106 px */
+/* https://whatismyviewport.com/ viewport 1248px x587px screen size 1123px x632px 150% */
 @font-face {
     font-family: FontSenRegular;
     src: url(./assets/fonts/Sen-Regular.ttf);
