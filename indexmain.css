@@ -5,6 +5,7 @@ main{
     /* background-color: brown; */
     /* position: relative; */
     font-family: FontSenRegular;
+    /*html 1331 px width */
 }
 /*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
@@ -359,7 +360,7 @@ main{
 /* ---------------------4º bloco choose category -------------------*/
 
 .choose-category{
-    width: 98.85vw;
+    width: 98.5vw;
     height: 58vh;
     /* background-color: wheat; */
     margin-bottom: 50px;
@@ -422,50 +423,52 @@ main{
 
 /* --------- 5º Bloco WHY WE STARTED----------- */
 .started{
-    width: 98.85vw;
+    width: 98.5vw;
     height: 53vw;
     /* background-color: violet; */
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 4.8vh;
 }
 .img-started{
     width: 69.2vw;
-    margin-left: 5.5vw;
+    margin-left: 5.7vw;
 }
 .started-absolute{
     position: absolute;
     display: flex;
     flex-direction: column;
     top: 9.2vw;
-    left: 47.4vw;
+    left: 47.6vw;
     background-color: aliceblue;
     width: 46.6vw;
     height: 87vh;
     justify-content: flex-start;
-    /* align-items: flex-start; */
-    
+        
 }
 .started-absolute h4{
     margin-top: 14vh;
     margin-left: 4.5vw;
-    margin-bottom: 3.8vh;
+    margin-bottom: 4.6vh;
     font-family: FontHeadingH2;
 }
-.started-absolute h3{    
+.started-absolute h3{   
+    margin-top: 1.5vh; 
     margin-left: 4.5vw;
     font-family: FontDisplay;
-    margin-bottom: 3.8vh;
+    margin-bottom: 4.6vh;
     width: 35.5vw;
 }
-.started-absolute p{    
+.started-absolute p{   
+    margin-top: 1.5vh;  
     margin-left: 4.8vw;
     font-family: FontBody01;
     opacity: 0.6;
     font-weight: 600;
-    margin-bottom: 3.8vh;
+    margin-bottom: 4.6vh;
     width: 35.4vw;
 }
 .started-bt{
+    margin-top: 1.5vh; 
     display: flex;
     margin-left: 60px;
     background-color: #FFD050;
@@ -484,18 +487,20 @@ main{
 
 /* ----------6º Bloco Authors ----------font-fam*/
 .list-authors{
-    width: 1106px;
-    height: 380px;
+    width: 98.5vw;
+    height: 60vh;
     /* background-color: red; */
 }
 .list-authors h2{
+    margin-top: 7vw;
     display: flex;
     justify-content: center;
-    margin-bottom: 38px;
+    margin-bottom: 4.6vh;
     font-family: FontHeadingH3;
 }
 .list-aut-wrapper{
-    
+    width: 97vw;
+    margin-left: 1.6vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -504,8 +509,8 @@ main{
     display: flex;
     flex-direction: column;
     background-color: #F4F4F4;
-    width: 220px;
-    height: 250px;
+    width: 19.6vw;
+    height: 43vh;
     justify-content: center;
 }
 .aut-img{
@@ -545,37 +550,42 @@ ul{
 /* 7º Bloco Advertise */
 .advertise{
     width: 98.85vw;
-    height: 70px;
+    height: 13vw;
     /* background-color: bisque;  */
     display: flex;  
-    /* justify-content: center; */
+    justify-content: space-between;
     
 }
 .list-adv{
-    width: 1050px;
+    width: 95vw;
     display: flex;
-    justify-content: space-between;
-    margin-left: 38px;
+    /* justify-content: space-between; */
+    align-content: space-between;
+    margin-left: 2.4vw;
 }
 .list-adv-item{
-    width: 160px;
-    height: 58px;
-    margin-left: 10px;
-    margin-right: 56px;
+    width: 11vw;
+    height: 10.5vh;
+    margin-left: 3vw;
+    margin-right: 4vw;
 }
 .list-text h5{
     opacity: 0.5;
+    font-family: FontHeadingH4;
 }
 .list-text h4{
+    font-family: FontHeadingH3;
     opacity: 0.7;
+    width: 8vw;
 }
 .adv-logo{
     font-family: FontHeadingH5;
     opacity: 0.7;
 }
 .span-logo{
-    width: 20px;
-    height: 20px;
+    width: 4vw;
+    height: 7vh;
+    font-family: FontDisplay;
 }
 
 
