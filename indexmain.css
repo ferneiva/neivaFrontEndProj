@@ -260,7 +260,7 @@ main{
     margin-bottom: 45px;
 }
 .tab-container{
-    margin-left: 6.3vw;
+    margin-left: 5.55vw;
     width: 88vw;
     display: flex;
     justify-content: center;
@@ -284,7 +284,7 @@ main{
     cursor: pointer;
 }
 .tab-content{
-    margin-left: 6.3vw;
+    margin-left: 5.55vw;
     width: 88vw;
     height: 370px;
     display: flex;
@@ -360,7 +360,7 @@ main{
 
 .choose-category{
     width: 98.85vw;
-    height: 320px;
+    height: 58vh;
     /* background-color: wheat; */
     margin-bottom: 50px;
    
@@ -369,20 +369,20 @@ main{
     /* display: flex;
     justify-content: center; */
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 3.6vh;
 }
 .category-btn{
     text-align: center;
-    margin-bottom: 2vw;
+    margin-bottom: 4vh;
 }
 
 
 .btn-cat-prev, .btn-cat-next{
-    width: 34px;
-    height: 22px;
+    width: 2.5vw;
+    height: 4vh;
 }
 .choose-cat-wrapper{
-    margin-left: 5.2vw;
+    margin-left: 4.3vw;
     width: 91vw;
     display: flex;
     flex-direction: row;
@@ -391,8 +391,8 @@ main{
 }
 
 .choose-box{    
-    width: 18vw;
-    height: 15vw;
+    width: 17.4vw;
+    height: 14vw;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -424,52 +424,56 @@ main{
 .started{
     width: 98.85vw;
     height: 53vw;
-    background-color: violet;
+    /* background-color: violet; */
     position: relative;
     margin-bottom: 30px;
 }
 .img-started{
-    width: 59.5vw;
-    margin-left: 6.4vw;
+    width: 69.2vw;
+    margin-left: 5.5vw;
 }
 .started-absolute{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 7.25vw;
-    left: 36vw;
+    top: 9.2vw;
+    left: 47.4vw;
     background-color: aliceblue;
-    width: 45vw;
-    height:37vw;
+    width: 46.6vw;
+    height: 87vh;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    
 }
 .started-absolute h4{
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin-top: 14vh;
+    margin-left: 4.5vw;
+    margin-bottom: 3.8vh;
+    font-family: FontHeadingH2;
 }
 .started-absolute h3{    
-    margin-left: 60px;
-    font-family: FontHeadingH1;
-    margin-bottom: 20px;
-    width: 380px;
+    margin-left: 4.5vw;
+    font-family: FontDisplay;
+    margin-bottom: 3.8vh;
+    width: 35.5vw;
 }
 .started-absolute p{    
-    margin-left: 60px;
+    margin-left: 4.8vw;
     font-family: FontBody01;
     opacity: 0.6;
     font-weight: 600;
-    margin-bottom: 20px;
-    width: 380px;
+    margin-bottom: 3.8vh;
+    width: 35.4vw;
 }
 .started-bt{
     display: flex;
     margin-left: 60px;
     background-color: #FFD050;
-    width: 173px;
-    height: 24px;
+    width: 17.4vw;
+    height: 7vh;
     justify-content: center;
     align-items: center;
-    font-family: FontHeadingH4;
+    font-family: FontHeadingH3;
     cursor:pointer;
     
 }
