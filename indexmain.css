@@ -1,5 +1,5 @@
 main{
-    margin-top: 60px;
+    margin-top: 10.9vh;
     width: 98vw;
     height: auto;
     /* background-color: brown; */
@@ -9,28 +9,28 @@ main{
 }
 /*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
-    width: 98.85vw;
+    width: 98.80vw;
     height: auto;
     /* background-color: aqua; */
     margin-bottom: 50px;
 }
 .img-step{
-    width: 100%;
+    width: 98.80vw;
 }
 .step-photo-text{
     position: absolute;
-    top: 140px; 
-    left: 40px;
+    top: 25.4vh; 
+    left: 5.5vw;
 }
 .step-text{
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 4.5vh;
 }
 .span-step-startup{
     font-weight: 700;
 }
 .item2{
-    width: 520px;
+    width: 39vw;
     /* font-size: 2rem;
     font-weight: 700; */
     margin-bottom: 20px;
@@ -75,6 +75,7 @@ main{
     cursor: pointer;
 }
 */
+/* ----button top middle photo---- */
 .button-photo{
     background-color: #FFD050;
     cursor: pointer;
@@ -82,7 +83,21 @@ main{
 .button-photo:hover{
     background-color: orange;
 }
-.prev-Button{
+.photo-bt-cont{
+    position: absolute;
+    top: 12.2vh;
+    left:48vw;
+    width: 8vw;
+    height: 5.5vh;
+    text-align: center;
+    vertical-align: center;
+    /* background-color: aqua; */
+}
+.button-photo{
+    width: 2.5vw;
+    height: 4vh;
+}
+/* .prev-Button{
     position: absolute;
     top: 35%;
     left: 9px;
@@ -94,7 +109,7 @@ main{
     top: 35%;
     right: 9px;
     font-size: 38px;
-}
+} */
 
 
 .item-hide{
@@ -470,7 +485,7 @@ main{
 .started-bt{
     margin-top: 1.5vh; 
     display: flex;
-    margin-left: 60px;
+    margin-left: 4.5vw;
     background-color: #FFD050;
     width: 17.4vw;
     height: 7vh;
@@ -512,17 +527,18 @@ main{
     width: 18.8vw;
     height: 43vh;
     justify-content: center;
+    /* background-color: red; */
 }
 .aut-img{
-    width: 90px;
-    height: 90px;
+    width: 6.7vw;
+    /* height: 15vh; */
     border-radius: 80px;
-    margin-bottom: 12px;
+    margin-bottom: 2.1vh;
     align-self: center;
 }
 .aut-title{
     font-family: FontHeadingH3;
-    margin-bottom: 12px;
+    margin-bottom: 0.02vh;
     align-self: center;
 }
 .aut-mail{
@@ -533,16 +549,22 @@ main{
 }
 ul{
     list-style: none;
+    /* background-color: aqua; */
+    align-self: center;
+
+    
 }
-.icons{
+.aut-box .icons{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    width: 9vw;
 }
 .aut-icons{
-    width: 16px;
-    height: 16px;
-    margin-right: 2px;
+    width: 1.2vw;
+    height: 2.9vh;
+    margin-right: 0.0015vw;
+    align-self: center;
+    margin-bottom: 3vh;
 }
 
 
@@ -568,6 +590,7 @@ ul{
     height: 10.5vh;
     margin-left: 3vw;
     margin-right: 4vw;
+    margin-bottom: 3vh;
 }
 .list-text h5{
     opacity: 0.5;
