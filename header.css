@@ -1,24 +1,26 @@
+
 header{
-    width: 100vw;
-    height: 60px;
+    width: 98.8vw;
+    height: 11.5vh;
     margin:0px;
     Position: fixed;
     top: 0;
     z-index: 10;  
     background-color: black;
-    font-family: FontSenRegular; 
+    
     
 }
 .header-nav{
-    width: 100%;
+    width: 98.8vw;
     display: flex;
 }
 .bar-item-1{
-    font-size: 2rem;
-    margin-right: 32vw; /*220px */
-    margin-left: 6vw; /*40px*/
-    margin-top: 7px;
-    width: 300px;
+    font-family: FontHeadingH1; 
+    font-size: 26px;
+    margin-right: 27.2vw; /*220px */
+    margin-left: 5.5vw; /*40px*/
+    margin-top: 2.3vh;
+    width: 24vw;
     color: white;
 }
 .bar-items{
@@ -26,36 +28,62 @@ header{
     margin-top: 0px;
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 11.5vh;
     background-color: black;
     color: white;
     justify-content: space-around;
     align-items: center;    
-    width: 500px;
+    width: 38vw;
     
-
 }
 .bar-items a{
     color: white;
     text-decoration:none;
 }
-
-.bar-item-2{
-    margin-right: 8px;
-    font-size: 0.8rem;
+.bar-items a:hover{
+    background-color: orange;
 }
-.bar-item-3 a{
-    margin-right: 10px;
+.bar-item-2{
+    margin-right: 0.4vw;
+    font-family: FontHeadingH4;
+    margin-top: 1.4vh;
+}
+.bar-item-3{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+    width: 15vw;
+    height: 8vh;
     background-color: white;
-    color: black;
-    padding: 12px;
-    width: 110px;
+    margin-top: 0.1vh;
     display: flex;
     justify-content: center;
-    font-weight: 700;
-    cursor: pointer;   
+    align-items: center;
+    color: black;
+    
+}
+.bar-items .bar-item-3 a{
+    /* margin-right: 0.7vw; */
+    /* background-color: red; */
+    color: black;
+    padding: 12px;
+    /* width: 11.5vw; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 0.2vh;
+    /* align-items: baseline; */
+    /* height: 6.7vh;
+    width: 1vw; */
+    cursor: pointer;
+    text-align: center; 
+    vertical-align:baseline;
+    font-family: FontHeadingH3;
     
 
+}
+.bar-item-3:hover{
+    background-color: orange;
 }
 .bar-item-4{
     background-image: url("./assets/photos/home/Hamburger-menu.jpg");
@@ -64,9 +92,8 @@ header{
     margin-left: 22%;
     margin-top: 5px;
 }
-a:hover{
-    background-color: orange;
-}
+
+
 .hide-nav-bar{
     display: none;
 }
