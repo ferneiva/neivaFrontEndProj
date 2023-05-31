@@ -242,3 +242,5 @@ nextBtCateg.addEventListener("click", ()=>{
     
 });
 */
+
+// --- carousel testimonials ----

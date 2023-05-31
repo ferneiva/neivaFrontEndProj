@@ -14,12 +14,19 @@
   @font-face {
     font-family: FontDisplay;
     src: url(./assets/fonts/Sen-Bold.ttf);
-    size-adjust: 199%;
-}
+    size-adjust: 199%; 
+    /* font-size-adjust: 2rem; */
+    /* font-size: 2rem; */
+    /* font-size: 2.4vw; */
+    /* font-size: 32px; */
+
+}  
 @font-face {
   font-family: FontArrow;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 195%;
+  size-adjust: 285%;
+  /* font-size: 1.95rem; */
+
 }
 
 
@@ -27,6 +34,7 @@
     font-family: FontHeadingH1;
     src: url(./assets/fonts/Sen-Bold.ttf);
     size-adjust: 140%;
+    /* font-size: 1.4rem ; */
   }
   @font-face {
     font-family: FontHeadingH2;
