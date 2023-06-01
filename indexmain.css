@@ -617,9 +617,6 @@ ul{
     font-family: FontDisplay;
 }
 
-
-
-
 /* 8º Bloco testimonials */
 .testimonials{
     width: 98.5vw;
@@ -742,7 +739,7 @@ ul{
 .jona-arrowR:hover{
     background-color: orange;
 }
-.testimo-hide{
+.testi-hide{
     display: none;
 }
 
