@@ -16,32 +16,27 @@ header{
     height: 5.6vw;
     display: flex;
     align-items: center;
-    margin-left: 1.6vw;
+    margin-left: 5.6vw;
 }
 .bar-item-1{
     font-family: FontHeadingH1; 
-    /* font-size: 26px; */
-    margin-right: 29.6vw; /*220px */
-    /* margin-left: 5.9vw; 40px */
+    font-size: 26px;
+    margin-right: 16.6vw; /*220px */
     width: 24vw;
-    height: 5.6vw;
-    color: white;
-    text-decoration: center;
-    margin-top: 0px;
-    /* margin-bottom: -8.215pxpx; */
+    height: 4vw;
+    color: white;  
     
 }
 .bar-items{
     list-style: none;
     margin-top: 0px;
     display: flex;
-    height: 100%;
-    /* background-color: red; */
     color: white;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;    
-    width: 60vw;
-    margin-left: 1.3vw;
+    width: 55vw;
+    height: 5vw;
+    
     
 }
 .bar-items a{
@@ -52,43 +47,29 @@ header{
     background-color: orange;
 }
 .bar-item-2{
-    margin-right: 0.4vw;
+    margin-right: 1.8vw;
     font-family: FontHeadingH4;
-    margin-top: 1.4vh;
-}
-.bar-item-3{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;  */
+    
+} 
+.bar-item-3{    
     width: 15vw;
-    /* height: 8vh; */
     height: 3.7vw;
-    background-color: white;
-    margin-top: 0.1vh;
+    background-color: white;    
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
+    margin-left: 0.9vw;
     
 }
-.bar-items .bar-item-3 a{
-    /* margin-right: 0.7vw; */
-    /* background-color: red; */
+.bar-items .bar-item-3 a{    
     color: black;
     padding: 12px;
-    /* width: 11.5vw; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    margin-top: 0.2vh;
-    /* align-items: baseline; */
-    /* height: 6.7vh;
-    width: 1vw; */
+    margin-top: 0.2vh;    
     cursor: pointer;
     text-align: center; 
     vertical-align:baseline;
-    font-family: FontHeadingH3;
-    
+    font-family: FontHeadingH3;   
 
 }
 .bar-item-3:hover{
@@ -170,9 +151,9 @@ header button{
 }
 
 @media only screen and (max-width: 1200px){
-.bar-item-1{
-    font-family: FontHeadingH1;
-    font-size: 20px;
+header .header-nav .bar-item-1{
+    font-family: FontHeadingH4;
+    
 }
 
 header .header-nav .bar-items{
@@ -183,4 +164,10 @@ header .header-nav .bar-items{
 }
 
 
+}
+@media only screen and (max-width: 820px){
+    header .header-nav .bar-item-1{
+        font-family: FontHeadingH5;
+        
+    }
 }

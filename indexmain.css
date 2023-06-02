@@ -413,6 +413,7 @@ main{
     justify-content: center; */
     text-align: center;
     margin-bottom: 3.6vh;
+    font-family: FontHeadingH1;
 }
 .category-btn{
     text-align: center;

@@ -1,69 +1,74 @@
 footer{
-    width: 98.55;
+    width: 98.55vw;
     /* background-color: lightcoral; */
     background-color: black; 
-    height: 80vh;   
+    height: 36.5vw;   /*80vh*/
 }
 .footer-container{
+    width: 90.55vw;
+    height: 36vw;
     color: white;       
     
 }
 .nav-footer{
-    width: 98.70vw;
+    width: 93.8vw;
+    height: 5.6vw;
+    display: flex;
+    align-items:flex-start;
+    height: 35vw;
 }
-.header-nav{
-    font-display: flex;
-    align-items: baseline;
+    
+.foot-header-nav{
+    width: 93.1vw;    
+    height: 5.6vw; 
+    margin-left: 5.6vw;
+    display: flex;
+    align-items: center;
 }
-.bar-item-1{
+.foot-bar-item-1{
     font-family: FontHeadingH1; 
-    font-size: 26px;
-    margin-right: 25vw; /*220px */
-    margin-left: 4vw; /*40px*/
-    margin-top: 2.3vh;
-    width: 24vw;
+    font-size: 28px;
+    margin-right: 28vw; /*220px */  
+    width: 26vw;
     color: white;
 }
-.bar-items{
+.foot-bar-items{
     list-style: none;
     margin-top: 0px;
     display: flex;
-    width: 9
-    
-    0%;
-    height: 11.5vh;
-    background-color: black;
     color: white;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;    
-    width: 38vw;
+    width: 61vw;
+    height: 5vw;
     
 }
-.bar-items a{
+.foot-bar-item-2{
+    margin-right: 2vw;
+    font-family: FontHeadingH4;
+}
+.foot-bar-items a{
     color: white;
     text-decoration:none;
 }
-.bar-items a:hover{
+.foot-bar-items a:hover{
     background-color: orange;
 }
-.bar-item-2{
-    margin-right: 0.4vw;
-    font-family: FontHeadingH4;
-    margin-top: 1.4vh;
-}
+
 
 
     /* -------2ª bloco----------- */
 .footer-subscription{
     display: flex;
-    height: 36vh;
-    width: 88vw;
+    height: 35.7vh;
+    /* height: 16.8vw; */
+    width: 87.6vw;
     background-color: rgba(30, 30, 30, 1); 
     /* background-color: antiquewhite; */
     align-items: center;
     margin-left: 5.3vw;
-    margin-top: 9vh;
-    margin-bottom: 9vh;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
     /* align-self: center; */
     
 }
@@ -107,7 +112,7 @@ footer{
 
 .footer-bottom{
     display: flex;
-    width: 87.9vw;
+    width: 87.5vw;
     margin-left: 5.4vw;
     /* background-color: blueviolet; */
     justify-content:space-between;
