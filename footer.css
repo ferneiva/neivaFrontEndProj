@@ -11,12 +11,15 @@ footer{
 .nav-footer{
     width: 98.70vw;
 }
-
+.header-nav{
+    font-display: flex;
+    align-items: baseline;
+}
 .bar-item-1{
     font-family: FontHeadingH1; 
     font-size: 26px;
-    margin-right: 27.2vw; /*220px */
-    margin-left: 5.5vw; /*40px*/
+    margin-right: 25vw; /*220px */
+    margin-left: 4vw; /*40px*/
     margin-top: 2.3vh;
     width: 24vw;
     color: white;
@@ -25,7 +28,9 @@ footer{
     list-style: none;
     margin-top: 0px;
     display: flex;
-    width: 100%;
+    width: 9
+    
+    0%;
     height: 11.5vh;
     background-color: black;
     color: white;

@@ -1,39 +1,47 @@
-
 header{
     width: 98.8vw;
-    height: 11.5vh;
+    /* height: 11.5vh; */
+    height: 5.6vw;
     margin:0px;
     Position: fixed;
     top: 0;
     z-index: 10;  
     background-color: black;
-    
+    display: flex;
+    align-items:flex-start;
     
 }
 .header-nav{
-    width: 98.8vw;
+    width: 96.8vw;    
+    height: 5.6vw;
     display: flex;
+    align-items: center;
+    margin-left: 1.6vw;
 }
 .bar-item-1{
     font-family: FontHeadingH1; 
-    font-size: 26px;
-    margin-right: 27.2vw; /*220px */
-    margin-left: 5.5vw; /*40px*/
-    margin-top: 2.3vh;
+    /* font-size: 26px; */
+    margin-right: 29.6vw; /*220px */
+    /* margin-left: 5.9vw; 40px */
     width: 24vw;
+    height: 5.6vw;
     color: white;
+    text-decoration: center;
+    margin-top: 0px;
+    /* margin-bottom: -8.215pxpx; */
+    
 }
 .bar-items{
     list-style: none;
     margin-top: 0px;
     display: flex;
-    width: 100%;
-    height: 11.5vh;
-    background-color: black;
+    height: 100%;
+    /* background-color: red; */
     color: white;
     justify-content: space-around;
     align-items: center;    
-    width: 38vw;
+    width: 60vw;
+    margin-left: 1.3vw;
     
 }
 .bar-items a{
@@ -53,7 +61,8 @@ header{
     align-items: center;
     justify-content: center;  */
     width: 15vw;
-    height: 8vh;
+    /* height: 8vh; */
+    height: 3.7vw;
     background-color: white;
     margin-top: 0.1vh;
     display: flex;
@@ -84,19 +93,20 @@ header{
 }
 .bar-item-3:hover{
     background-color: orange;
+
+    
 }
-.bar-item-4{
+header button{
     background-image: url("./assets/photos/home/Hamburger-menu.jpg");
-    width: 50px;
-    height: 39px;
-    margin-left: 22%;
-    margin-top: 5px;
+    object-fit: cover;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-right: 17.6%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.5vw;
 }
 
-
-.hide-nav-bar{
-    display: none;
-}
 .hide-hbg-icon{
     display: none;
 }
@@ -104,25 +114,32 @@ header{
 /* -------------hamburger tab--------------- */
 
 .hbg-items{
-    width: 400px;
-    height:300px;
+    width: 38vw;
+    height: 65vh;
     position: absolute;
-    top:60px;
-    right:30px;
+    top:5.6vw;
+    right:0px;
     display: flex;
     flex-direction: column;
     background-color: #232536;
     opacity: 0.7;
     align-items: center;
+    cursor: pointer;
 }
 .hbg-items a{
     color: white;
     text-decoration:none;
-    cursor: pointer;       
+    cursor: pointer;   
+    font-family: FontHeadingH3;    
 }    
+.hbg-items a:hover{
+    background-color: orange;
+}
 .hbg-item-1{
     margin-top: 30px;
     color: white;
+    
+
 }
 .hbg-item-2, .hbg-item-3,.hbg-item-4{
     margin-top: 14px; 
@@ -134,17 +151,36 @@ header{
     background-color: white;
     color: black;
     padding: 12px;
-    width: 110px;
+    width: 25vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: FontHeadingH3;
     font-weight: 700;      
 }
-.hbg-item-5 a:hover{
-    background-color: orange;
-}
+
+
+
+
 .hide-hbg-tab{
     display: none;
 }
 .see-hbg-tab{
     display: block;
+}
+
+@media only screen and (max-width: 1200px){
+.bar-item-1{
+    font-family: FontHeadingH1;
+    font-size: 20px;
+}
+
+header .header-nav .bar-items{
+    display: none;
+}
+.hide-hbg-icon{
+    display:flex
+}
+
+
 }

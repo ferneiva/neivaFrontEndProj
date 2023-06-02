@@ -1,12 +1,16 @@
 main{
-    margin-top: 10.9vh;
+    /* margin-top: 10.9vh; */
     width: 98vw;
     height: auto;
+    margin-top: 5vw;
+
+    /* font-size-adjust: 0.58; */
     /* background-color: brown; */
     /* position: relative; */
-    font-family: FontSenRegular;
+    /* font-family: FontSenRegular; */
     /*html 1331 px width */
 }
+
 /*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
     width: 98.80vw;
@@ -16,11 +20,14 @@ main{
 }
 .img-step{
     width: 98.80vw;
+    object-fit: cover;
 }
 .step-photo-text{
     position: absolute;
     top: 25.4vh; 
     left: 5.5vw;
+    width: 60%;
+    height: 45%;
 }
 .step-text{
     color: white;
@@ -30,20 +37,20 @@ main{
     font-weight: 700;
 }
 .item2{
-    width: 39vw;
+    width: 55vw;
     /* font-size: 2rem;
     font-weight: 700; */
     margin-bottom: 20px;
     font-family: FontDisplay;
 }
-.item3{
-    font-weight: 200;
-}
+/* .item3{
+    width: 40vw;
+} */
 .span-step-james{
     color: orange;
 }
 .item4{
-    width: 410px;
+    width: 38vw;
 }
 .step-photo-more{
     width: 11.5vw;
@@ -85,17 +92,19 @@ main{
 }
 .photo-bt-cont{
     position: absolute;
-    top: 12.2vh;
-    left:48vw;
-    width: 8vw;
-    height: 5.5vh;
+    top: 7vw;
+    left: 43vw;
+    width: 14vw;
+    height: auto;
     text-align: center;
     vertical-align: center;
     /* background-color: aqua; */
 }
 .button-photo{
-    width: 2.5vw;
-    height: 4vh;
+    width: 3.6vw;
+    height: 3vh;
+    line-height: 0.8;
+    margin-right: 0.5vw;
 }
 /* .prev-Button{
     position: absolute;
@@ -140,25 +149,30 @@ main{
     justify-content: flex-start;   
 }
 .featured h2{
-    font-family: FontHeadingH1; 
-    
+    font-family: FontHeadingH1;
 }
+
+
 .featured-border{
     border: 1px groove rgba( 204, 204, 255, 0.6);
     margin-top: 1.9vw;
     padding:16px;
     margin-left: 0.25vw;
-    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     
     
 }
 .featured-image{
     width: 47vw;
-    height: 52vh;
+    height: 25vw;
     background-image: url("./assets/photos/home/Featured.post-image.jpg");
     margin-bottom: 3vh;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
+    margin-left: 0.11vw;
     
 
 }
@@ -166,16 +180,21 @@ main{
     margin-bottom: 3vh;
     font-family: FontBody02;
     opacity: 0.7;
+    margin-left: 0.11vw;
     
 }
 .featured-item2{
+    font-family: FontHeadingH1;
     margin-bottom: 3vh;
-    width: 38vw;
+    width: 44vw;
+    margin-left: 0.11vw;
 }
 .featured-item3{
+    font-family: FontBody01;
     margin-bottom: 3vh;
     font-size: 0.7rem;
     opacity: 0.6;
+    margin-left: 0.11vw;
 }
 
 .posts{
@@ -191,8 +210,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* background-color: aqua;
-     */
+    /* background-color: aqua;     */
 }
 .posts-title h2{
     font-family: FontHeadingH1;
@@ -208,6 +226,10 @@ main{
     font-family: FontHeadingH5;
     
 }
+.posts-title h3 a:hover{
+    background-color: orange;
+}
+
 /* .posts-title h3{
     font-size: 0.8rem;
 } */
@@ -215,7 +237,7 @@ main{
 .posts-scroll{
     width: 33vw;
     /* height: 90vh; */
-    height: 81%;
+    height: 82%;
     margin-left:2.8vw;
     display: block;
     overflow-x: hidden;
@@ -225,7 +247,8 @@ main{
 }
  
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 8px rgba(210,210,210,4); 
+    /* -webkit-box-shadow: inset 0 0 8px rgba(210,210,210,4); */
+    -webkit-box-shadow: inset 0 0 0px rgba(210,210,210,4);
     border-radius: 0px;
 }
  
@@ -240,7 +263,7 @@ main{
 
 /* ----------------fim scroll */
 .post-item{
-    margin-top: 5.1vh;
+    margin-top: 4.9vh;
     width: 26vw;
     height:17vh;
     padding: 3px;       
@@ -250,7 +273,7 @@ main{
     font-family: FontHeadingH4;
     opacity: 0.7;
     width: 30vw;
-    margin-bottom: 1.2vh;
+    margin-bottom: 1.5vh;
     
 }
 .post-item p{
@@ -326,22 +349,25 @@ main{
     padding: 20px;
 }
 .part-title{
-    opacity: 0.7;
-    margin-bottom: 12px;
+    font-family: FontHeadingH1;
+    opacity: 0.5;
+    margin-bottom: 1.7vw;
 }
 .part-banner1{
-    font-size: 1.9rem;
-    font-weight: 900;
+    /* font-weight: 900; */
     margin-bottom: 12px;
+    font-family: FontHeadingH1;
 }
 .part-banner2{
-    font-size: 1.6rem;
-    font-weight: 900;
+    font-family: FontHeadingH2;
+    font-weight: 800;
     margin-bottom: 12px;
 }
 .part-text{
+    font-family: FontBody02;
     opacity: 0.4;
-    font-weight: 500;
+    font-weight: 800;
+    margin-top: 1vw;
 }
 .more{
     margin-top: 45px;
@@ -395,8 +421,12 @@ main{
 
 
 .btn-cat-prev, .btn-cat-next{
-    width: 2.5vw;
-    height: 4vh;
+    width: 3.6vw;
+    height: 3vh;
+    line-height: 0.8;
+    margin-right: 0.5vw;
+    /* width: 2.5vw;
+    height: 4vh; */
 }
 .choose-cat-wrapper{
     margin-left: 4.3vw;
@@ -471,14 +501,15 @@ main{
 .started-absolute h3{   
     margin-top: 1.5vh; 
     margin-left: 4.5vw;
-    font-family: FontDisplay;
+    font-family: FontHeadingH1;
+    font-weight: 500;
     margin-bottom: 4.6vh;
     width: 35.5vw;
 }
 .started-absolute p{   
     margin-top: 1.5vh;  
     margin-left: 4.8vw;
-    font-family: FontBody01;
+    font-family: FontBody02;
     opacity: 0.6;
     font-weight: 600;
     margin-bottom: 4.6vh;
@@ -583,7 +614,6 @@ ul{
 .list-adv{
     width: 92.5vw;
     display: flex;
-    /* justify-content: space-between; */
     align-content: space-between;
     margin-left: 3vw;
 }
@@ -592,7 +622,7 @@ ul{
     height: 10.5vh;
     margin-left: 3vw;
     margin-right: 4vw;
-    margin-bottom: 3vh;
+    margin-bottom: 3.7vh;
 }
 .list-text h5{
     opacity: 0.5;
@@ -601,9 +631,10 @@ ul{
 .list-text h4{
     font-family: FontHeadingH3;
     opacity: 0.7;
-    width: 8vw;
+    width: 8vw;    
 }
 .adv-item-1{
+    margin-top: 0.4vw;
     margin-left: 0.4vw;
     margin-right: 5.2vw;
 }
@@ -611,11 +642,7 @@ ul{
     font-family: FontHeadingH5;
     opacity: 0.7;
 }
-.span-logo{
-    width: 4vw;
-    height: 7vh;
-    font-family: FontDisplay;
-}
+
 
 /* 8º Bloco testimonials */
 .testimonials{
@@ -875,9 +902,10 @@ ul{
 }
 .join-wrapper p{
     width: 34.5vw;
-    font-family: FontBody01;
+    font-family: FontBody02;
     text-align: center;
     margin-bottom: 5vh;
+    opacity: 0.5;
 }
 .join-now{    
     font-family: FontHeadingH1;
@@ -893,3 +921,4 @@ ul{
 .join-now:hover{
     background-color: orange;
 }
+
