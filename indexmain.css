@@ -2,7 +2,7 @@ main{
     /* margin-top: 10.9vh; */
     width: 98vw;
     height: auto;
-    margin-top: 5vw;
+    margin-top: 5.5vw;
 
     /* font-size-adjust: 0.58; */
     /* background-color: brown; */
@@ -24,18 +24,27 @@ main{
 }
 .step-photo-text{
     position: absolute;
-    top: 25.4vh; 
+    /* top: 25.4vh;  */
+    top: 12.3vw; 
+    /* top: 163px; */
     left: 5.5vw;
     width: 60%;
     height: 45%;
 }
 .step-text{
     color: white;
-    margin-bottom: 4.5vh;
+    /* margin-bottom: 4.5vh; */
+    margin-bottom: 2.2vw;
+}
+.item1{
+    font-family: FontHeadingH2R;
+    
 }
 .span-step-startup{
-    font-weight: 700;
-}
+    font-family: FontHeadingH2;
+    /* font-weight: 700; */
+} 
+
 .item2{
     width: 55vw;
     /* font-size: 2rem;
@@ -43,24 +52,27 @@ main{
     margin-bottom: 20px;
     font-family: FontDisplay;
 }
-/* .item3{
-    width: 40vw;
-} */
+.item3{
+    font-family: FontHeadingH4;
+} 
 .span-step-james{
     color: orange;
 }
 .item4{
     width: 38vw;
+    font-family: FontBody02;
 }
 .step-photo-more{
-    width: 11.5vw;
+    width: 14.5vw;
     height: 7vh;
+    height: 3.7vw;
     background-color: #FFD050;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     cursor: pointer;
+    font-family: FontHeadingH3;
 }
 .step-photo-more:hover{
     background-color: orange;
@@ -923,3 +935,84 @@ ul{
     background-color: orange;
 }
 
+
+@media only screen and (max-width: 1200px){
+main .step-step-container .slider-wrapper .photo .step-photo-text .item2{
+    font-family: FontDisplay-1200;
+    font-size: 26px;
+    font-weight: 700;        
+
+}
+main .step-step-container .slider-wrapper .photo .step-photo-text .step-photo-more{
+    font-family: FontDisplay-1200;
+    /* font-size: 26px;
+    font-weight: 700; */
+        
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 800px){
+    main .step-step-container .slider-wrapper .photo .step-photo-text .item1{
+        font-family: FontHeadingH2-800;      
+     
+    }
+    main .step-step-container .slider-wrapper .photo .step-photo-text .item1 span{
+        font-family: FontHeadingH2R-800;      
+     
+    }
+
+    main .step-step-container .slider-wrapper .photo .step-photo-text .item4{
+        font-family: FontBody02-800;       
+      
+    }
+    
+    main .step-step-container .slider-wrapper .photo .step-photo-text .step-photo-more{
+        font-family: FontHeadingH3-800;       
+      
+    }
+    
+    
+    
+    
+    }
+
+    @media only screen and (max-width: 576px){
+        main .step-step-container .slider-wrapper .photo .step-photo-text .item2{
+            font-family: FontDisplay-576;
+            font-size: 18px;
+            font-weight: 700;        
+        
+        }
+        main .step-step-container .slider-wrapper .photo .step-photo-text .item3{
+            font-family: FontHeadingH4-576;
+            /* font-size: 12px; */
+            
+        
+        }
+        /* main .step-step-container .slider-wrapper .photo .step-photo-text .item1{
+            font-family: FontHeadingH2-576;      
+         
+        } */
+        /* main .step-step-container .slider-wrapper .photo .step-photo-text .item1 span{
+            font-family: FontHeadingH2R-800;      
+         
+        }
+    
+        main .step-step-container .slider-wrapper .photo .step-photo-text .item4{
+            font-family: FontBody02-800;       
+          
+        } */
+        
+        main .step-step-container .slider-wrapper .photo .step-photo-text .step-photo-more{
+            font-family: FontHeadingH3-576;       
+          
+        }
+        
+        
+        
+        
+        }
