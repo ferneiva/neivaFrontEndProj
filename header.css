@@ -52,15 +52,16 @@ header{
     
 } 
 .bar-item-3{    
-    width: 15vw;
+    width: 16
+    vw;
     height: 3.7vw;
     background-color: white;    
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
-    margin-left: 0.9vw;
-    
+    /* margin-left: 1.4vw;
+     */
 }
 .bar-items .bar-item-3 a{    
     color: black;
@@ -96,7 +97,8 @@ header button{
 
 .hbg-items{
     width: 38vw;
-    height: 65vh;
+    /* height: 65vh; */
+    height: 100vh;
     position: absolute;
     top:5.6vw;
     right:0px;
@@ -104,6 +106,7 @@ header button{
     flex-direction: column;
     background-color: #232536;
     opacity: 0.7;
+    justify-content: flex-start;
     align-items: center;
     cursor: pointer;
 }
@@ -117,7 +120,7 @@ header button{
     background-color: orange;
 }
 .hbg-item-1{
-    margin-top: 30px;
+    margin-top: 18px;
     color: white;
     
 
@@ -128,7 +131,7 @@ header button{
 }
 .hbg-item-5 a{
     margin-top: 20px;
-    margin-right: 10px;
+    
     background-color: white;
     color: black;
     padding: 12px;

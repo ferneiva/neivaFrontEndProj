@@ -41,12 +41,13 @@ footer{
     align-items: center;    
     width: 61vw;
     height: 5vw;
+    font-family: FontHeadingH4;
     
 }
 .foot-bar-item-2{
     margin-right: 2vw;
-    font-family: FontHeadingH4;
 }
+
 .foot-bar-items a{
     color: white;
     text-decoration:none;
