@@ -94,7 +94,7 @@
 @font-face {
   font-family: FontHeadingH1-1200;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 114%;
+  size-adjust: 100%;
   
 } 
 @font-face {
@@ -125,13 +125,13 @@
 @font-face {
   font-family: FontBody01-1200;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 125%;
+  size-adjust: 105%;
   
 }
 @font-face {
   font-family: FontBody02-1200;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 87.5%;
+  size-adjust: 67.5%;
   
 }
 @font-face {

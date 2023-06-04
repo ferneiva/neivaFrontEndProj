@@ -52,8 +52,7 @@ header{
     
 } 
 .bar-item-3{    
-    width: 16
-    vw;
+    width: 16vw;
     height: 3.7vw;
     background-color: white;    
     display: flex;
