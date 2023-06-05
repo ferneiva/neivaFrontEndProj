@@ -1,8 +1,9 @@
 main{
     /* margin-top: 10.9vh; */
-    width: 98.75vw;
+    width: 98.70vw;
     height: auto;
     margin-top: 5.5vw;
+    margin-top: 74.60px;
 
     /* font-size-adjust: 0.58; */
     /* background-color: brown; */
@@ -10,22 +11,26 @@ main{
     /* font-family: FontSenRegular; */
     /*html 1331 px width */
 }
+.display{
+    display: none;
+}
 
 /*---------- 1º bloco step-by-step-guide --------------*/
 .step-step-container{
-    width: 98.80vw;
+    width: 98.70vw;
     height: auto;
     /* background-color: aqua; */
     margin-bottom: 50px;
 }
 .img-step{
-    width: 98.80vw;
+    width: 98.77vw;
     object-fit: cover;
 }
 .step-photo-text{
     position: absolute;
     /* top: 25.4vh;  */
     top: 12.3vw; 
+    top: 25%;    
     /* top: 163px; */
     left: 5.5vw;
     width: 60%;
@@ -95,29 +100,29 @@ main{
 }
 */
 /* ----button top middle photo---- */
-.button-photo{
-    background-color: #FFD050;
-    cursor: pointer;
-}
-.button-photo:hover{
-    background-color: orange;
-}
+
 .photo-bt-cont{
     position: absolute;
-    top: 7vw;
+    top: 6vw;
+    top: 80px;
     left: 43vw;
     width: 14vw;
-    height: auto;
     text-align: center;
     vertical-align: center;
     /* background-color: aqua; */
 }
 .button-photo{
+    background-color: #FFD050;
+    cursor: pointer;
     width: 3.6vw;
     height: 3vh;
     line-height: 0.8;
     margin-right: 0.5vw;
 }
+.button-photo:hover{
+    background-color: orange;
+}
+
 /* .prev-Button{
     position: absolute;
     top: 35%;
@@ -275,22 +280,20 @@ main{
     display: block;
     overflow-x: hidden;
 }
-::-webkit-scrollbar {
+.posts-scroll::-webkit-scrollbar {
     width: 1.2vw;
 }
  
-::-webkit-scrollbar-track {
-    /* -webkit-box-shadow: inset 0 0 8px rgba(210,210,210,4); */
+.posts-scroll::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 0px rgba(210,210,210,4);
     border-radius: 0px;
 }
  
-::-webkit-scrollbar-thumb {
-    border-radius: 0px;
-    /* -webkit-box-shadow: inset 0 0 6px rgba(255,165,1);  */
+.posts-scroll::-webkit-scrollbar-thumb {
+    border-radius: 0px;    
     background: #FFD050;
 }
-::-webkit-scrollbar-thumb:hover {
+.posts-scroll::-webkit-scrollbar-thumb:hover {
     background: orange;
 }
 
@@ -437,6 +440,7 @@ main{
 .choose-category{
     width: 98.5vw;
     height: 58vh;
+    height: 28vw;
     /* background-color: wheat; */
     margin-bottom: 50px;
    
@@ -446,11 +450,13 @@ main{
     justify-content: center; */
     text-align: center;
     margin-bottom: 3.6vh;
+    margin-bottom: 1.74vw;
     font-family: FontHeadingH1;
 }
 .category-btn{
     text-align: center;
     margin-bottom: 4vh;
+    margin-bottom: 2vw;
 }
 
 
@@ -463,8 +469,8 @@ main{
     height: 4vh; */
 }
 .choose-cat-wrapper{
-    margin-left: 4.3vw;
-    width: 91vw;
+    margin-left: 4.5vw;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
@@ -472,13 +478,14 @@ main{
 }
 
 .choose-box{    
-    width: 17.4vw;
+    width: 18.4vw;
     height: 14vw;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 14px;
+    padding:1.05vw;
     cursor: pointer;
     /* margin-right: 2vw; */
 }
@@ -486,8 +493,8 @@ main{
     background-color: orange;
 }
 .choose-icon img{
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    /* height: 4vw; */
     background-color: rgb(237, 220, 188);
     border-radius: 10px;
     margin-left: 1vw;
@@ -499,6 +506,7 @@ main{
 .choose-box p{
     font-family: FontBody01;
     margin-left: 1vw;
+    opacity: 0.7;
 }
 
 /* --------- 5º Bloco WHY WE STARTED----------- */
@@ -524,30 +532,37 @@ main{
     /* height: 87vh; */
     height: 80%;
     justify-content: flex-start;
+    justify-content: center;
         
 }
 .started-absolute h4{
-    margin-top: 14vh;
+    /* margin-top: 14vh; */
+    margin-top: 0vw;
     margin-left: 4.5vw;
-    margin-bottom: 4.6vh;
+    /* margin-bottom: 4.6vh; */
+    /* margin-bottom: 1vw; */
     font-family: FontHeadingH2;
 }
 .started-absolute h3{   
     margin-top: 1.5vh; 
+    margin-top: 0vw;
     margin-left: 4.5vw;
     font-family: FontHeadingH1;
     font-weight: 500;
-    margin-bottom: 4.6vh;
+    /* margin-bottom: 4.6vh; */
+    margin-bottom: 2vw;
+    margin-top: 3vw;
     width: 35.5vw;
 }
 .started-absolute p{   
     margin-top: 1.5vh;  
+    margin-top: 0vw;
     margin-left: 4.8vw;
-    font-family: FontBody02;
+    font-family: FontBody01;
     opacity: 0.6;
     font-weight: 600;
     margin-bottom: 4.6vh;
-    width: 35.4vw;
+    width: 38.4vw;
 }
 .started-bt{
     margin-top: 1.5vh; 
@@ -605,12 +620,14 @@ main{
 }
 .aut-title{
     font-family: FontHeadingH3;
-    margin-bottom: 0.02vh;
+    margin-bottom: 0.3vh;
+    margin-bottom: 0.22vw;
     align-self: center;
 }
 .aut-mail{
-    font-family: FontHeadingH5;
+    font-family: FontBody02;
     margin-bottom: 12px;
+    margin-bottom: 1.4vw;
     align-self: center;
     opacity: 0.6;
 }
@@ -641,20 +658,23 @@ ul{
     width: 98.55vw;
     height: 13vw;
     /* background-color: bisque;  */
-    display: flex;  
+    /* display: flex;  
     justify-content: space-between;
+    justify-content: flex-start; */
     
 }
 .list-adv{
-    width: 92.5vw;
+    width: 88.6vw;
     display: flex;
     align-content: space-between;
-    margin-left: 3vw;
+    margin-left: 5.5vw;
+    /* background: greenyellow; */
 }
 .list-adv-item{
     width: 11vw;
     height: 10.5vh;
     margin-left: 3vw;
+    margin-left: 0vw;
     margin-right: 4vw;
     margin-bottom: 3.7vh;
 }
@@ -665,18 +685,20 @@ ul{
 .list-text h4{
     font-family: FontHeadingH3;
     opacity: 0.7;
-    width: 8vw;    
+    width: 8vw; 
+    width: 12vw;   
+    
+    /* background-color: red; */
 }
-.adv-item-1{
+.adv-item-1{   
     margin-top: 0.4vw;
     margin-left: 0.4vw;
     margin-right: 5.2vw;
+    /* background-color: aquamarine; */
+} 
+.logipsum-1{
+    width: 9.2vw;
 }
-.adv-logo{
-    font-family: FontHeadingH5;
-    opacity: 0.7;
-}
-
 
 /* 8º Bloco testimonials */
 .testimonials{
@@ -999,7 +1021,7 @@ main .step-step-container .slider-wrapper .photo .step-photo-text .item2{
 
 
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 991px){
     main .step-step-container .slider-wrapper .photo .step-photo-text .item1{
         font-family: FontHeadingH2-800;      
      
@@ -1018,10 +1040,10 @@ main .step-step-container .slider-wrapper .photo .step-photo-text .item2{
         font-family: FontHeadingH3-800;       
       
     }
-    .featured-post{
+    /* .featured-post{
         flex-direction: column;
         
-    }
+    } */
 }
     
     

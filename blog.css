@@ -1,0 +1,158 @@
+/* *{
+  border: 1px solid red; 
+} */
+main{
+    margin-top: 76px;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.blog-header{
+    width: 98.75vw;
+    height: 480px;
+    /* margin-top: 76.4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F0F8;
+    color: black;
+}
+.blog-header-wrapper{
+    width: 98.80vw;
+    height: 332px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+    width: 1190px;
+    background-color: lightcoral;
+}
+.step-photo-textB{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 680px;
+    height: 300px;
+    /* margin-bottom: 4.5vh; */
+    margin-bottom: 2.2vw;
+    /* margin-right: 130px; */
+    /* background-color: aqua; */
+    
+}
+
+.item1B{
+    font-family: FontHeadingH2;
+    opacity: 0.7;
+    
+}
+
+
+.item2B{
+    
+    /* font-size: 2rem;
+    font-weight: 700; */
+    margin-bottom: 20px;
+    font-family: FontHeadingH1;
+}
+.item3B{
+    font-family: FontHeadingH6;
+    opacity: 0.8;
+} 
+.span-step-jamesB{
+    color: orange;
+}
+.item4B{
+    width: 38vw;
+    font-family: FontBody02;
+}
+.step-photo-moreB{
+    width: 180px;
+    height: 7vh;
+    height: 3.7vw;
+    background-color: #FFD050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: FontHeadingH3;
+}
+.step-photo-more:hover{
+    background-color: orange;
+}
+.blog-top-img{
+    width: 476px;
+}
+
+/* *************2º BLOCK ALL POSTS ********* */
+.all-posts{
+    width: 98.75vw;
+    height: 2100px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.ap-wrapper{
+    width: 87.68vw;
+    height: 1830px;
+    margin-left: 1vw;
+    /* background-color: lightcoral; */
+
+}
+.ap-carousel{
+    width: 86.80vw;
+    height: 1750px;
+    /* background-color: red; */
+}
+.ap-wrapper h2{
+    font-family: FontHeadingH1;
+    margin-bottom: 1.2vw;
+}
+.ap-wrapper hr{
+    margin-bottom: 2vw;
+}
+
+.ap-photo-wrapper{
+    width: 1183px;
+    height: 292.50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4vw;
+}
+.ap-img{
+    width: 453px;
+    height: 294.5px;
+    margin-right: 2vw;
+    
+}
+.ap-photo-text{
+    /* background-color: lightgreen; */
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    row-gap: 1.2vw;
+}
+
+
+.ap-buttons{
+    display: flex;
+    justify-content: center;
+    
+    gap: 2vw;
+    cursor: pointer;
+}
+.ap-button-1{
+    /* width: 3vw;
+    height: 2.2vw; */
+    font-family: FontHeadingH2;
+    opacity: 0.4;
+}
+.ap-button-2{
+    font-family: FontHeadingH2;
+    opacity: 1;
+}
+.ap-hide{
+    display: none;
+}

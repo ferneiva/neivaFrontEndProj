@@ -2,18 +2,21 @@ header{
     width: 98.8vw;
     /* height: 11.5vh; */
     height: 5.6vw;
+    height: 74.60px;
     margin:0px;
     Position: fixed;
     top: 0;
     z-index: 10;  
     background-color: black;
     display: flex;
-    align-items:flex-start;
+    align-items:center;
+
     
 }
 .header-nav{
     width: 96.8vw;    
     height: 5.6vw;
+    height: 74.60px;
     display: flex;
     align-items: center;
     margin-left: 5.6vw;
@@ -100,6 +103,7 @@ header button{
     height: 100vh;
     position: absolute;
     top:5.6vw;
+    top:74.60px;
     right:0px;
     display: flex;
     flex-direction: column;
@@ -152,7 +156,7 @@ header button{
     display: block;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 888px){
 header .header-nav .bar-item-1{
     font-family: FontHeadingH1-1200;
     
@@ -166,12 +170,12 @@ header .header-nav .bar-items{
 
 
 }
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 800px){
     header .header-nav .bar-item-1{
         font-family: FontHeadingH1-800;
         
     }
-}
+} */
 
 
 @media only screen and (max-width: 576px){

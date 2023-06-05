@@ -62,13 +62,13 @@
 @font-face {
   font-family: FontBody01;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 125%;
+  size-adjust: 100%;
   
 }
 @font-face {
   font-family: FontBody02;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 87.5%;
+  size-adjust: 70%;
   
 }
 @font-face {
@@ -231,3 +231,5 @@
   src: url(./assets/fonts/Sen-Regular.ttf);
   size-adjust: 87.5%;    
 };
+
+
