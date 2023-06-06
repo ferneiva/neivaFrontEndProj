@@ -24,7 +24,7 @@ main{
     justify-content: space-between;
     margin-left: 1vw;
     width: 1190px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 .step-photo-textB{   
     display: flex;

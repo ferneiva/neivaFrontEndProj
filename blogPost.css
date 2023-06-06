@@ -4,8 +4,67 @@
 } */
 main{
     width: 98.75vw;
-    height: auto;
+    height: 200vw;
     margin-top: 5.5vw;
     background-color: aqua;
    
+}
+.bp-top{
+    width: 98.vw;
+    height: 26vw;
+    margin-top: 5.5vw;
+    padding:0.05vw;
+    /* background-color: red; */
+}
+.bp-top-content{
+    margin-left: 23vw;
+    height: 25vw;
+    width: 53vw;
+    margin-top: 8vw;
+    background-color: greenyellow;
+    padding: 0.0005vw;
+}
+.bp-top-wrapper{
+    width: 53w;
+    height:70px;
+    height: 5vw;
+    /* background-color: #592EA9; */
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7.9vw;
+    
+}
+.bp-top-wrapper img{
+    width: 3.33vw;
+    height: 3.33vw;
+    border-radius: 140px;
+    margin-right: 1vw;
+    
+    
+}
+.bp-top-wrapper h3{
+    margin-top: 25px;
+    margin-top: 0.1vw;
+    width:15vw;
+    margin-bottom: 0.1vw;
+    font-family: FontHeadingH3;
+    color: #592EA9;
+}
+.bp-top-wrapper h4{
+    width: 12vw;
+    font-family: FontHeadingH6;
+    opacity: 0.5;
+    
+}
+.bp-top-title1{
+    font-family: FontHeadingH1;
+    margin-top: 1.6vw;  
+    margin-bottom: 3vw;
+}
+.bp-top-title2{
+    font-family: FontHeadingH4;
+}
+.bp-top-icon img{ 
+    width: 1.4vw;
+    height: 1.4vw;
 }
