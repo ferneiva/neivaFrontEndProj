@@ -92,7 +92,7 @@ tabs.forEach(element => element.addEventListener("click",
 
 //---------carossel Categories --------------
 
-const arrayCateg = [
+const arrCat = [
 
     {
         id: 1,
@@ -125,21 +125,21 @@ const arrayCateg = [
     {
         id: 5,
         symbol: "./assets/icons/cooperation.png",
-        category: "Business",
+        category: "Startup",
         text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
 
     },
     {
         id: 6,
         symbol: "./assets/icons/start-up.png",
-        category: "Startup",
+        category: "Economy",
         text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
 
     },
     {
         id: 7,
         symbol: "./assets/icons/business.png",
-        category: "Economy",
+        category: "Development",
         text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
 
     },
@@ -153,11 +153,97 @@ const arrayCateg = [
     {
         id: 9,
         symbol: "./assets/icons/growth.png",
-        category: "Business",
+        category: "Startup",
         text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
 
     }
 ];
+
+const arrShow = [
+    {
+        id: 1,
+        symbol: "./assets/icons/flat-4733-64px.png",
+        category: "Business",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id: 2,
+        symbol: "./assets/icons/rocket-3432-64px.png",
+        category: "Startup",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id: 3,
+        symbol: "./assets/icons/coins-787-64px.png",
+        category: "Economy",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    },
+    {
+        id: 4,
+        symbol: "./assets/icons/artificial-intelligence-14078-64px.png",
+        category: "Technology",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+
+    }
+]
+
+let funcPopCat = (dataArray) =>{
+    let catContainer = document.querySelector(".choose-cat-wrapper");
+    catContainer.innerHTML = "";
+    for(i=0;i<dataArray.length-1; i++){
+        let newDiv = document.createElemment("div");
+        newDiv.classList.add("choose-box");
+        newDiv.innerHTML = ` <div = class"choose-icon"> <img src=${dataArray[i].symbol}> </div>
+        <h3 class="cat-ttile"> ${dataArray[i].category} <h3>
+        <p class="cat-page"> ${dataArray[i].text} <p> `
+        catContainer.appendChild(newDiv);
+    }
+}
+
+
+let nextBtCateg = document.querySelector(".btn-cat-next");
+nextBtCateg.addEventListener("click", ()=>{
+    if(arrShow[3] = arrCat[arrCat.length-1]){
+        arrShow.push(arrCat[0]);
+        arrShow.shift();
+    }
+    else{
+        arrShow.shift();
+        for(i=0;  i<arrCat.length-1; i++){
+            if(arrShow[3] = arrCat[i]){
+                arrShow.push(arrCat[i+1]);
+            }
+        }
+    }
+    funcPopCat(arrShow);
+})
+
+let prectBtCateg = document.querySelector(".btn-cat-prev");
+nextBtCateg.addEventListener("click", ()=>{
+    if(arrShow[0] = arrCat[0]){
+        arrShow.unshift(arrCat[arrCat.length-1]);
+        arrShow.pop();
+    }
+    else{
+        for(i=0; i<arrCat.length-1; i++){
+            if(arrShow[0] = arrCat[i]){
+                arrShow.pop();
+                arrShow.unshift(arrcat[i-1]);
+            }
+        }
+    }
+    funcPopCat(arrShow);
+})
+
+
+
+
+
+
+
 // teste do array json
 
 // function writeArrayCateg(arrayObj){
