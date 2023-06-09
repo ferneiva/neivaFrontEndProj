@@ -109,8 +109,8 @@ main{
 /* ---------3º BLOCO --------- */
 
 .bp-text-cont{
-    width: 98.70vw;
-    height: 104vw;
+    width: 98.75vw;
+    height: 200vw;
     /* background-color: lightslategray; */
     
 }
@@ -169,97 +169,6 @@ main{
     
 }
 
-/* ----4º BLOCO ----------- */
-/* rn stand dor read next */
-.rn-section{
-    width: 98.70vw;
-    height: 49vw;
-    /* background-color: blueviolet; */
-    margin-bottom: 3vw;
-}
-.rn-container{
-    width: 88.1vw;
-    height: 45vw;
-    margin-left:5.6vw;
-    border-bottom: 1px solid black;
-    /* background-color: coral; */
-   
-}
-.rn-box{
-    width: 27.762vw;
-    height: auto;
-}
-.rn-title{
-    font-family: FontHeadingH2;
-    margin-bottom: 3vw;
-}
-.rn-box-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 2.4vw;    
-}
-.rn-image{
-    width: 27.762vw;
-    margin-bottom: 1vw;
-}
-.rn-credits{
-    font-family: FontLabel;
-    opacity: 0.7;
-    margin-bottom: 1.5vw;
-}
-.rn-subtitle{
-    font-family: FontHeadingH3;
-    margin-bottom: 1.5vw;
-}
-.rn-text{
-    font-family: FontBody01;
-}
-/* ------- 5º BLOCO --------- */
-.join{
-    width: 98.55vw;
-    height: 50vh;
-    height: 24.22vw;
-    /* git  */
-}
-.join-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.join-wrapper h2{
-    margin-top: 5vh;
-    margin-top: 2.43vw;
-    width: 35vw;
-    font-family: FontHeadingH1;
-    text-align: center;
-    margin-bottom: 3.3vh;
-    margin-bottom: 1.6vw;
-
-}
-.join-wrapper p{
-    width: 34.5vw;
-    font-family: FontBody02;
-    text-align: center;
-    margin-bottom: 5vh;
-    margin-bottom: 2.43vw;
-    opacity: 0.7;
-}
-.join-now{    
-    font-family: FontHeadingH1;
-    width: 11.2vw;
-    height: 7.2vh;
-    height: 3.49vw;
-    background-color: #FFD050;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    cursor: pointer;
-}
-.join-now:hover{
-    background-color: orange;
-}
 
 
 @media only screen and (max-width: 1200px){
