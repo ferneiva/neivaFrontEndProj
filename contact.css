@@ -123,7 +123,14 @@ width: 10.7vw;
     background-color: #FFD050;
     font-family: FontHeadingBold700;
     text-align: center;
-    line-height: 52px;
-    
-
+    line-height: 54px;    
+}
+.enter::placeholder{
+    position: absolute;
+    left: 5%;
+}
+.message::placeholder{
+    position: absolute;
+    top: 15%;
+    left: 5%;
 }
