@@ -1,0 +1,129 @@
+main{
+    width: 100vw; /*oveflows*/
+    width: 1331px;
+    width: 98.75vw;
+    height: 100vw;
+    height: auto;
+    margin-top: 5.5vw;
+    margin-top: 74.60px;
+    /* background-color: aqua; */
+}
+.contact-section{
+    /* background-color: blueviolet; */
+    width: 1331px;
+    width: 98.75vw;
+    height: 87vw;    
+    padding: 0.05vw;
+}
+.contact-wrapper{
+    /* background-color: coral; */
+    width: 53.05vw;
+    height: 69.27vw;
+    margin-left: 22.82vw;
+    margin-top: 8.8vw;    
+}
+.heading{
+    height: 13.25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgrey;     */
+}
+.heading h5{
+    height: 1.37vw;
+    font-family: FontHeadingH2;
+    margin-bottom: 1.5vw;
+}
+.heading h1{
+    font-family: FontHeadingH1;
+    height: 4.36vw;
+}
+.heading p{
+    height: 3.84vw;
+    text-align: center;
+    font-family: FontHeadingBody01;
+    opacity: 0.7;
+}
+.contact{
+    height:16.20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #592EA9;
+    color: #FFFFFF;
+    margin-bottom: 3.15vw;
+}
+.contact-box{
+    width: 20.15vw;
+    height: 9.8vw;
+    /* border: 1px solid lightcyan; */
+}
+.work{
+    width: 7vw;
+    height: 1.35vw;
+    font-family: FontBody02;
+}
+.hour .empty-border{
+    height: 0.8vw;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0.8vw;
+}
+.hour h5{
+    width: 15.25vw;
+    height: 2.19vw;
+}
+.hour h6{
+    width: 16.25vw;
+    height: 2.19vw;
+}
+.legend{
+    font-family: FontHeadingH5;
+    width: 18.17vw;
+    height: 1.92;
+}
+.us p{
+    font-family: FontBody02;
+    width: 13.20vw;
+    height: 1.35vw;
+}
+.us .empty-border{
+    height: 0.8vw;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0.8vw;
+}
+.us h5{
+    height: 2.19vw;
+    width: 13.23vw;
+    font-family: FontHeadingH4;
+
+}
+.us h4{
+height: 1.92vw;
+width: 10.7vw;
+}
+.form{
+    width: 53.05vw;
+    height: 36.11vw;
+    background-color: red;
+}
+.enter{
+    height: 5.18vw;
+    width: 52.85vw;
+    margin-bottom: 1.5vw;
+}
+.message{
+     height: 9.875vw;
+     width: 52.85vw;
+     text-align: start;
+     margin-bottom: 1.5vw;
+}
+.send{
+    height: 4.38vw;
+    width: 53.2vw;
+    background-color: #FFD050;
+    font-family: FontHeadingBold700;
+    text-align: center;
+    line-height: 52px;
+    
+
+}

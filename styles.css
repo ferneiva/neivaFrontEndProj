@@ -38,7 +38,12 @@
   src: url(./assets/fonts/Sen-Bold.ttf);
   size-adjust: 125%;
 }
-
+@font-face {
+  font-family: FontHeadingBold700;
+  src: url(./assets/fonts/Sen-Bold.ttf);
+  size-adjust: 150%;
+  font-weight: 700;
+}
 @font-face {
   font-family: FontHeadingH2R;
   src: url(./assets/fonts/Sen-Regular.ttf);
