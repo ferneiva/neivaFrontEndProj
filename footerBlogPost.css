@@ -111,11 +111,11 @@ footer{
 }
 
 
-.footer-bottom{
+/* .footer-bottom{
     display: flex;
     width: 87.5vw;
     margin-left: 5.4vw;
-    /* background-color: blueviolet; */
+    
     justify-content:space-between;
     align-items: self-start;
     height: 60px;
@@ -126,4 +126,4 @@ footer{
     width: 14vw;
     display: flex;
     justify-content: space-between;
-}
+} */

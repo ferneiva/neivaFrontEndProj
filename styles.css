@@ -4,7 +4,7 @@
 }
 
 
-/* ---largura 1106 px */
+/* ---largura 1331 px */
 /* https://whatismyviewport.com/ viewport 1248px x587px screen size 1123px x632px 150% */
 @font-face {
     font-family: FontSenRegular;
@@ -53,12 +53,12 @@
 @font-face {
   font-family: FontHeadingH3;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 110%;
+  size-adjust: 120%;
 }
 @font-face {
   font-family: FontHeadingH4;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 95%;
+  size-adjust: 115%;
 }
 @font-face {
   font-family: FontHeadingH5;
@@ -73,7 +73,7 @@
 @font-face {
   font-family: FontBody01;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 100%;
+  size-adjust: 115%;
   
 }
 @font-face {
@@ -93,7 +93,7 @@
 @font-face {
   font-family: FontDisplay-1200;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 210%; 
+  size-adjust: 220%; 
   font-weight: 700;
 }  
 @font-face {
@@ -111,7 +111,7 @@
 @font-face {
   font-family: FontHeadingH2-1200;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 105%;
+  size-adjust: 95%;
 }
 @font-face {
   font-family: FontHeadingH3-1200;
@@ -151,6 +151,12 @@
   size-adjust: 87.5%;    
 };
 /* -----------------------800px------------------------- */
+@font-face {
+  font-family: FontDisplay-800;
+  src: url(./assets/fonts/Sen-Bold.ttf);
+  size-adjust: 180%; 
+  font-weight: 700;
+}  
 @font-face {
   font-family: FontHeadingH1-800;
   src: url(./assets/fonts/Sen-Bold.ttf);
@@ -199,7 +205,7 @@
 @font-face {
   font-family: FontDisplay-576;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 110%; 
+  size-adjust: 120%; 
   font-weight: 700;
 }  
 @font-face {
@@ -222,12 +228,12 @@
 @font-face {
   font-family: FontHeadingH3-576;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 60%;
+  size-adjust: 65%;
 }
 @font-face {
   font-family: FontHeadingH4-576;
   src: url(./assets/fonts/Sen-Bold.ttf);
-  size-adjust: 20%;
+  size-adjust: 50%;
 }
 @font-face {
   font-family: FontHeadingH5-576;
@@ -242,13 +248,13 @@
 @font-face {
   font-family: FontBody01-576;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 125%;
+  size-adjust: 90%;
   
 }
 @font-face {
   font-family: FontBody02-576;
   src: url(./assets/fonts/Sen-Regular.ttf);
-  size-adjust: 87.5%;
+  size-adjust: 82.5%;
   
 }
 @font-face {

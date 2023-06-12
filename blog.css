@@ -8,7 +8,7 @@ main{
 }
 
 .blog-header{
-    width: 98.75vw;
+    width: 98.70vw;
     height: 480px;
     /* margin-top: 76.4px; */
     display: flex;
@@ -18,12 +18,11 @@ main{
     color: black;
 }
 .blog-header-wrapper{
-    width: 98.80vw;
+    width: 87.50vw;
     height: 332px;
     display: flex;
     justify-content: space-between;
     margin-left: 1vw;
-    width: 1190px;
     /* background-color: lightcoral; */
 }
 .step-photo-textB{   
@@ -232,11 +231,11 @@ main{
     opacity: 0.7;
 }
 /* ------------------ 4º BLOCO ---------- */
-.blog-join{
+/* .blog-join{
     width: 98.55vw;
     height: 50vh;
     height: 24.22vw;
-    /* git  */
+    
 }
 .blog-join-wrapper{
     display: flex;
@@ -276,4 +275,4 @@ main{
 }
 .blog-join-now:hover{
     background-color: orange;
-}
+} */
