@@ -48,6 +48,10 @@
     font-weight: bold;
     cursor: pointer;
 }
+.join-now a{
+    text-decoration: none;
+    color: black;
+}
 .join-now:hover{
     background-color: orange;
 }

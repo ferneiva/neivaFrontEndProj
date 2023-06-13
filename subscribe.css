@@ -1,0 +1,137 @@
+main{
+    width: 100vw; /*oveflows*/
+    width: 1331px;
+    width: 98.75vw;
+    height: 100vw;
+    height: auto;
+    margin-top: 5.5vw;
+    margin-top: 74.60px;
+    /* background-color: aqua; */
+}
+.s-contact-section{
+    /* background-color: blueviolet; */
+    width: 1331px;
+    width: 98.75vw;
+    height: 87vw;    
+    padding: 0.05vw;
+}
+.s-contact-wrapper{
+    /* background-color: coral; */
+    width: 53.05vw;
+    height: 69.27vw;
+    margin-left: 22.82vw;
+    margin-top: 8.8vw;    
+}
+.s-heading{
+    height: 13.25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgrey;     */
+}
+h1{
+    height: 10pxvw;
+    font-family: FontDisplay;
+    margin-bottom: 10px;
+    color: #592EA9;
+}
+.s-heading h3{
+    font-family: FontHeadingH1;
+    height: 4.36vw;
+    color: #592EA9;
+}
+
+.s-contact{
+    height:16.20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #592EA9;
+    color: #FFFFFF;
+    margin-bottom: 3.15vw;
+}
+.s-contact-box{
+    width: 20.15vw;
+    height: 9.8vw;
+    /* border: 1px solid lightcyan; */
+}
+.s-work{
+    width: 7vw;
+    height: 1.35vw;
+    font-family: FontBody02;
+}
+.s-hour .s-empty-border{
+    height: 0.8vw;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0.8vw;
+}
+.s-hour h5{
+    width: 15.25vw;
+    height: 2.19vw;
+}
+.s-hour h6{
+    width: 16.25vw;
+    height: 2.19vw;
+}
+.s-legend{
+    font-family: FontHeadingH5;
+    width: 18.17vw;
+    height: 1.92;
+}
+.s-us p{
+    font-family: FontBody02;
+    width: 13.20vw;
+    height: 1.35vw;
+}
+.s-us .s-empty-border{
+    height: 0.8vw;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0.8vw;
+}
+.s-us h5{
+    height: 2.19vw;
+    width: 13.23vw;
+    font-family: FontHeadingH4;
+
+}
+.s-us h4{
+height: 1.92vw;
+width: 10.7vw;
+}
+.s-form{
+    width: 53.05vw;
+    height: 36.11vw;
+    /* background-color: red; */
+}
+.s-enter{
+    height: 5.18vw;
+    width: 52.85vw;
+    margin-bottom: 1.5vw;
+    /* cursor: pointer; */
+}
+.s-message{
+     height: 9.875vw;
+     width: 52.85vw;
+     text-align: start;
+     margin-bottom: 1.5vw;
+     /* cursor: pointer; */
+}
+.s-send{
+    height: 4.38vw;
+    width: 53.2vw;
+    background-color: #FFD050;
+    font-family: FontHeadingBold700;
+    text-align: center;
+    line-height: 54px;  
+    border: none;  
+    cursor: pointer;
+}
+.s-enter::placeholder{
+    position: absolute;
+    left: 5%;
+}
+.s-message::placeholder{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}

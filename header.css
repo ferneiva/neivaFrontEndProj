@@ -15,7 +15,7 @@ header{
     
 }
 .header-nav{
-    width: 87.55vw;    
+    width: 88.76vw;    
     height: 5.6vw;
     height: 74.60px;
     display: flex;
@@ -23,7 +23,7 @@ header{
     justify-content: space-between;
     /* margin-left: 5.6vw; */
     
-    margin-left: 5.6vw;
+    margin-left: 5.4vw;
 }
 .bar-item-1{
     font-family: FontHeadingH1; 

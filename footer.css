@@ -69,77 +69,6 @@ footer{
     font-family: FontBody01;
     
 } 
-/* 
-.bar-item-3{    
-    width: 14vw;
-    height: 3.7vw;
-    background-color: white;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;    
-}
-.bar-items .bar-item-3 a{    
-    color: black;
-    padding: 12px;
-    margin-top: 0.2vh;    
-    cursor: pointer;
-    text-align: center; 
-    vertical-align:baseline;
-    font-family: FontHeadingH3;   
-
-}
-.bar-item-3:hover{
-    background-color: orange;    
-} */
-
-/* 
-.nav-footer{
-    width: 93.8vw;
-    height: 5.6vw;
-    display: flex;
-    align-items:flex-start;
-    height: 35vw;
-}
-    
-.foot-header-nav{
-    width: 93.1vw;    
-    height: 5.6vw; 
-    margin-left: 5.6vw;
-    display: flex;
-    align-items: center;
-}
-.foot-bar-item-1{
-    font-family: FontHeadingH1; 
-    font-size: 28px;
-    margin-right: 28vw; 
-    width: 26vw;
-    color: white;
-}
-.foot-bar-items{
-    list-style: none;
-    margin-top: 0px;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;    
-    width: 61vw;
-    height: 5vw;
-    font-family: FontBody01;
-    
-}
-.foot-bar-item-2{
-    margin-right: 2vw;
-}
-
-.foot-bar-items a{
-    color: white;
-    text-decoration:none;
-}
-.foot-bar-items a:hover{
-    background-color: orange;
-}
- */
 
 
     /* -------2ª bloco----------- */
@@ -194,6 +123,10 @@ footer{
     font-weight: 600;
     font-family: FontHeadingH4;
     cursor: pointer;       
+}
+.subs-box-bt a{
+    text-decoration: none;
+    color: black;
 }
 
 .subs-box-bt:hover{

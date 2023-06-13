@@ -80,7 +80,13 @@ main{
     font-weight: bold;
     cursor: pointer;
     font-family: FontHeadingH3;
+    
 }
+.step-photo-more a{
+    text-decoration: none;
+    color: black;
+}
+
 .step-photo-more:hover{
     background-color: orange;
 }
@@ -361,9 +367,12 @@ main{
 }
 .tab-container{
     margin-left: 5.55vw;
-    width: 88vw;
+    width: 88.55vw;
     display: flex;
     justify-content: center;
+}
+.tab{
+    height: 28px;
 }
 .tab-grow1{
     flex-grow: 1;
@@ -385,7 +394,7 @@ main{
 }
 .tab-content{
     margin-left: 5.55vw;
-    width: 88vw;
+    width: 88.55vw;
     height: 370px;
     height:auto;
     display: flex;
@@ -442,8 +451,12 @@ main{
     color: #592EA9;
     cursor: pointer;
 }
+.more a{
+    text-decoration: none;
+    color: #592EA9;;
+}
 
-.tab3 .more{
+.tab3 .more a{
     color:#FFD050;
 }
 .more:hover{
@@ -487,6 +500,7 @@ main{
     margin-bottom: 4vh;
     margin-bottom: 2vw;
     justify-content: space-between;
+    margin-left: 1.5vw;
 }
 
 
@@ -500,8 +514,8 @@ main{
     height: 4vh; */
 }
 .choose-cat-wrapper{
-    margin-left: 4.5vw;
-    width: 90vw;
+    margin-left: 4.8vw;
+    width: 90.2vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
@@ -609,8 +623,11 @@ main{
     justify-content: center;
     align-items: center;
     font-family: FontHeadingH3;
-    cursor:pointer;
-    
+    cursor:pointer;    
+}
+.started-bt a{
+    text-decoration: none;
+    color: black;
 }
 .started-bt:hover{
     background-color: orange;
@@ -748,17 +765,17 @@ ul{
 
 /* 8º Bloco testimonials */
 .testimonials{
-    width: 98.5vw;
+    width: 98.55vw;
     height: 484px; 
     height: auto;
     margin-bottom: 80px;
 }
 .testimo-wrapper{
-    width: 88.5vw;
+    width: 88.8vw;
     
     height:430px;
     height: auto;
-    margin-left: 5vw;
+    margin-left: 5.3vw;
     background-color: #FBF6EA;
     display: flex;
     justify-content: center;
